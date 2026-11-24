@@ -1,0 +1,38 @@
+issue_id,issue_type,expected_flag,entity,record_id,related_record_ids,field,correct_value,corrupted_value,impact_base_qty,rule
+GT-000001,BOUNDARY_PO_AT_MOQ,False,purchase_order,PO-2026-000066,,,,,,requested_base_qty == supplier_sku.moq_base_qty (valid)
+GT-000002,BOUNDARY_PO_AT_MOQ,False,purchase_order,PO-2026-000279,,,,,,requested_base_qty == supplier_sku.moq_base_qty (valid)
+GT-000003,BOUNDARY_PO_AT_MOQ,False,purchase_order,PO-2026-000291,,,,,,requested_base_qty == supplier_sku.moq_base_qty (valid)
+GT-000004,BOUNDARY_RECEIPT_AT_HORIZON_END,False,purchase_order,PO-2026-000209,,,,,,promised_week == 2026W52; receipt must be counted in the last horizon week
+GT-000005,BOUNDARY_RECEIPT_AT_HORIZON_END,False,purchase_order,PO-2026-000214,,,,,,promised_week == 2026W52; receipt must be counted in the last horizon week
+GT-000006,BOUNDARY_RECEIPT_AT_HORIZON_END,False,purchase_order,PO-2026-000280,,,,,,promised_week == 2026W52; receipt must be counted in the last horizon week
+GT-000007,BOUNDARY_CAPACITY_AT_100PCT,False,supplier_capacity,SCAP-SUP-0008-2026W05,,,,,,"confirmed load == capacity_base_qty (valid, 0 spare)"
+GT-000008,BOUNDARY_CAPACITY_AT_100PCT,False,supplier_capacity,SCAP-SUP-0019-2026W05,,,,,,"confirmed load == capacity_base_qty (valid, 0 spare)"
+GT-000009,BOUNDARY_CAPACITY_AT_100PCT,False,supplier_capacity,SCAP-SUP-0020-2026W31,,,,,,"confirmed load == capacity_base_qty (valid, 0 spare)"
+GT-000010,BOUNDARY_ZERO_BALANCE,False,inventory,INV-SKU-000026-LOC-001,SKU-000026|LOC-001,,,,,on-hand set so the minimum projected closing balance is exactly 0: no shortage expected
+GT-000011,BOUNDARY_ZERO_BALANCE,False,inventory,INV-SKU-000059-LOC-003,SKU-000059|LOC-003,,,,,on-hand set so the minimum projected closing balance is exactly 0: no shortage expected
+GT-000012,BOUNDARY_ZERO_BALANCE,False,inventory,INV-SKU-000069-LOC-005,SKU-000069|LOC-005,,,,,on-hand set so the minimum projected closing balance is exactly 0: no shortage expected
+GT-000013,INBOUND_DOUBLE_COUNT,True,inbound_shipment,SHP-2026-000057,PO-2026-000004|SHP-2026-000004,shipment_id,(none),SHP-2026-000057,3072,second ASN for a PO already in transit: receipt would be counted twice
+GT-000014,INBOUND_DOUBLE_COUNT,True,inbound_shipment,SHP-2026-000058,PO-2026-000008|SHP-2026-000007,shipment_id,(none),SHP-2026-000058,3618,second ASN for a PO already in transit: receipt would be counted twice
+GT-000015,INBOUND_DOUBLE_COUNT,True,inbound_shipment,SHP-2026-000059,PO-2026-000018|SHP-2026-000015,shipment_id,(none),SHP-2026-000059,1176,second ASN for a PO already in transit: receipt would be counted twice
+GT-000016,INBOUND_DOUBLE_COUNT,True,inbound_shipment,SHP-2026-000060,PO-2026-000023|SHP-2026-000018,shipment_id,(none),SHP-2026-000060,1056,second ASN for a PO already in transit: receipt would be counted twice
+GT-000017,INBOUND_DOUBLE_COUNT,True,inbound_shipment,SHP-2026-000061,PO-2026-000050|SHP-2026-000033,shipment_id,(none),SHP-2026-000061,3888,second ASN for a PO already in transit: receipt would be counted twice
+GT-000018,SUBSTITUTE_NOT_APPROVED,True,purchase_order,PO-2026-000301,SUB-SKU-000092-SKU-000035,substitute_for_sku_id,(null),SKU-000092,60,substitute_for_sku_id set but sku_substitute pair is not APPROVED
+GT-000019,SUBSTITUTE_NOT_APPROVED,True,purchase_order,PO-2026-000302,SUB-SKU-000081-SKU-000069,substitute_for_sku_id,(null),SKU-000081,24,substitute_for_sku_id set but sku_substitute pair is not APPROVED
+GT-000020,SUBSTITUTE_NOT_APPROVED,True,purchase_order,PO-2026-000303,SUB-SKU-000081-SKU-000069,substitute_for_sku_id,(null),SKU-000081,24,substitute_for_sku_id set but sku_substitute pair is not APPROVED
+GT-000021,SUBSTITUTE_NOT_APPROVED,True,purchase_order,PO-2026-000304,SUB-SKU-000049-SKU-000053,substitute_for_sku_id,(null),SKU-000049,72,substitute_for_sku_id set but sku_substitute pair is not APPROVED
+GT-000022,SUBSTITUTE_NOT_APPROVED,True,purchase_order,PO-2026-000305,SUB-SKU-000089-SKU-000050,substitute_for_sku_id,(null),SKU-000089,30,substitute_for_sku_id set but sku_substitute pair is not APPROVED
+GT-000023,SUPPLIER_CAPACITY_EXCEEDED,True,purchase_order,PO-2026-000306,SCAP-SUP-0012-2026W20,confirmed_base_qty,15142,18498,3356,confirmed load for supplier-week exceeds supplier_capacity.capacity_base_qty
+GT-000024,SUPPLIER_CAPACITY_EXCEEDED,True,purchase_order,PO-2026-000307,SCAP-SUP-0001-2026W18,confirmed_base_qty,5392,7608,2216,confirmed load for supplier-week exceeds supplier_capacity.capacity_base_qty
+GT-000025,SUPPLIER_CAPACITY_EXCEEDED,True,purchase_order,PO-2026-000308,SCAP-SUP-0008-2026W33,confirmed_base_qty,8027,11952,3925,confirmed load for supplier-week exceeds supplier_capacity.capacity_base_qty
+GT-000026,SUPPLIER_CAPACITY_EXCEEDED,True,purchase_order,PO-2026-000309,SCAP-SUP-0013-2026W38,confirmed_base_qty,16882,26580,9698,confirmed load for supplier-week exceeds supplier_capacity.capacity_base_qty
+GT-000027,SUPPLIER_CAPACITY_EXCEEDED,True,purchase_order,PO-2026-000310,SCAP-SUP-0007-2026W51,confirmed_base_qty,16885,25536,8651,confirmed load for supplier-week exceeds supplier_capacity.capacity_base_qty
+GT-000028,SHORTAGE_WITHOUT_LEAD_TIME,True,purchase_order,PO-2026-000150,LT-SUP-0017-LOC-004,promised_week,2026W11,2026W02,2304,promised_week < order_week + lead_time_weeks: supply credited before it can arrive
+GT-000029,SHORTAGE_WITHOUT_LEAD_TIME,True,purchase_order,PO-2026-000187,LT-SUP-0003-LOC-005,promised_week,2026W13,2026W08,456,promised_week < order_week + lead_time_weeks: supply credited before it can arrive
+GT-000030,SHORTAGE_WITHOUT_LEAD_TIME,True,purchase_order,PO-2026-000192,LT-SUP-0015-LOC-002,promised_week,2026W18,2026W11,1152,promised_week < order_week + lead_time_weeks: supply credited before it can arrive
+GT-000031,SHORTAGE_WITHOUT_LEAD_TIME,True,purchase_order,PO-2026-000213,LT-SUP-0001-LOC-003,promised_week,2026W24,2026W20,132,promised_week < order_week + lead_time_weeks: supply credited before it can arrive
+GT-000032,SHORTAGE_WITHOUT_LEAD_TIME,True,purchase_order,PO-2026-000275,LT-SUP-0012-LOC-004,promised_week,2026W38,2026W35,288,promised_week < order_week + lead_time_weeks: supply credited before it can arrive
+GT-000033,UOM_MISMATCH,True,purchase_order,PO-2026-000099,UOM-SKU-000055-CASE,order_uom,CASE,EA,1055,order_qty was entered in CASE but tagged EA: base quantity understated by pack_size
+GT-000034,UOM_MISMATCH,True,purchase_order,PO-2026-000149,UOM-SKU-000033-CASE,order_uom,CASE,EA,6776,order_qty was entered in CASE but tagged EA: base quantity understated by pack_size
+GT-000035,UOM_MISMATCH,True,purchase_order,PO-2026-000160,UOM-SKU-000005-CASE,order_uom,CASE,EA,1495,order_qty was entered in CASE but tagged EA: base quantity understated by pack_size
+GT-000036,UOM_MISMATCH,True,purchase_order,PO-2026-000237,UOM-SKU-000013-CASE,order_uom,CASE,EA,713,order_qty was entered in CASE but tagged EA: base quantity understated by pack_size
+GT-000037,UOM_MISMATCH,True,purchase_order,PO-2026-000299,UOM-SKU-000012-CASE,order_uom,CASE,EA,10,order_qty was entered in CASE but tagged EA: base quantity understated by pack_size

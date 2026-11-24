@@ -1,0 +1,21 @@
+supplier_id,supplier_name,region,reliability_score,status,capacity_constrained
+SUP-0001,Supplier 0001 South,SOUTH,0.934,ACTIVE,False
+SUP-0002,Supplier 0002 West,WEST,0.815,ACTIVE,False
+SUP-0003,Supplier 0003 East,EAST,0.829,ACTIVE,False
+SUP-0004,Supplier 0004 West,WEST,0.705,ACTIVE,True
+SUP-0005,Supplier 0005 East,EAST,0.752,ACTIVE,False
+SUP-0006,Supplier 0006 East,EAST,0.881,ACTIVE,False
+SUP-0007,Supplier 0007 East,EAST,0.893,ACTIVE,False
+SUP-0008,Supplier 0008 Central,CENTRAL,0.842,ACTIVE,False
+SUP-0009,Supplier 0009 North,NORTH,0.708,ACTIVE,False
+SUP-0010,Supplier 0010 West,WEST,0.604,ACTIVE,False
+SUP-0011,Supplier 0011 North,NORTH,0.918,ACTIVE,False
+SUP-0012,Supplier 0012 East,EAST,0.758,ACTIVE,False
+SUP-0013,Supplier 0013 West,WEST,0.888,ON_HOLD,False
+SUP-0014,Supplier 0014 Central,CENTRAL,0.789,ACTIVE,False
+SUP-0015,Supplier 0015 North,NORTH,0.815,ACTIVE,False
+SUP-0016,Supplier 0016 South,SOUTH,0.911,ACTIVE,False
+SUP-0017,Supplier 0017 South,SOUTH,0.977,ACTIVE,False
+SUP-0018,Supplier 0018 Central,CENTRAL,0.601,ACTIVE,False
+SUP-0019,Supplier 0019 North,NORTH,0.606,ACTIVE,False
+SUP-0020,Supplier 0020 North,NORTH,0.981,ACTIVE,False

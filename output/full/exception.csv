@@ -1,0 +1,201 @@
+exception_id,issue_type,entity,record_id,related_record_ids,rule,owner,observed_value,suggested_value
+EXC-000001,INBOUND_DOUBLE_COUNT,inbound_shipment,SHP-2026-003158,PO-2026-000028|SHP-2026-000028,D1: more than one ASN for the PO / shipped qty exceeds confirmed qty,LOGISTICS_ANALYST,shipments=2;shipped=576;confirmed=288,0
+EXC-000002,INBOUND_DOUBLE_COUNT,inbound_shipment,SHP-2026-003159,PO-2026-000107|SHP-2026-000099,D1: more than one ASN for the PO / shipped qty exceeds confirmed qty,LOGISTICS_ANALYST,shipments=2;shipped=13368;confirmed=6684,0
+EXC-000003,INBOUND_DOUBLE_COUNT,inbound_shipment,SHP-2026-003160,PO-2026-000188|SHP-2026-000168,D1: more than one ASN for the PO / shipped qty exceeds confirmed qty,LOGISTICS_ANALYST,shipments=2;shipped=1296;confirmed=648,0
+EXC-000004,INBOUND_DOUBLE_COUNT,inbound_shipment,SHP-2026-003161,PO-2026-000235|SHP-2026-000208,D1: more than one ASN for the PO / shipped qty exceeds confirmed qty,LOGISTICS_ANALYST,shipments=2;shipped=12384;confirmed=6192,0
+EXC-000005,INBOUND_DOUBLE_COUNT,inbound_shipment,SHP-2026-003162,PO-2026-000262|SHP-2026-000230,D1: more than one ASN for the PO / shipped qty exceeds confirmed qty,LOGISTICS_ANALYST,shipments=2;shipped=5664;confirmed=2832,0
+EXC-000006,INBOUND_DOUBLE_COUNT,inbound_shipment,SHP-2026-003163,PO-2026-000463|SHP-2026-000394,D1: more than one ASN for the PO / shipped qty exceeds confirmed qty,LOGISTICS_ANALYST,shipments=2;shipped=6144;confirmed=3072,0
+EXC-000007,INBOUND_DOUBLE_COUNT,inbound_shipment,SHP-2026-003164,PO-2026-000479|SHP-2026-000406,D1: more than one ASN for the PO / shipped qty exceeds confirmed qty,LOGISTICS_ANALYST,shipments=2;shipped=6096;confirmed=3048,0
+EXC-000008,INBOUND_DOUBLE_COUNT,inbound_shipment,SHP-2026-003165,PO-2026-000808|SHP-2026-000670,D1: more than one ASN for the PO / shipped qty exceeds confirmed qty,LOGISTICS_ANALYST,shipments=2;shipped=2736;confirmed=1368,0
+EXC-000009,INBOUND_DOUBLE_COUNT,inbound_shipment,SHP-2026-003166,PO-2026-000976|SHP-2026-000803,D1: more than one ASN for the PO / shipped qty exceeds confirmed qty,LOGISTICS_ANALYST,shipments=2;shipped=86064;confirmed=43032,0
+EXC-000010,INBOUND_DOUBLE_COUNT,inbound_shipment,SHP-2026-003167,PO-2026-000992|SHP-2026-000817,D1: more than one ASN for the PO / shipped qty exceeds confirmed qty,LOGISTICS_ANALYST,shipments=2;shipped=816;confirmed=408,0
+EXC-000011,INBOUND_DOUBLE_COUNT,inbound_shipment,SHP-2026-003168,PO-2026-001196|SHP-2026-000982,D1: more than one ASN for the PO / shipped qty exceeds confirmed qty,LOGISTICS_ANALYST,shipments=2;shipped=16320;confirmed=8160,0
+EXC-000012,INBOUND_DOUBLE_COUNT,inbound_shipment,SHP-2026-003169,PO-2026-001263|SHP-2026-001036,D1: more than one ASN for the PO / shipped qty exceeds confirmed qty,LOGISTICS_ANALYST,shipments=2;shipped=57504;confirmed=28752,0
+EXC-000013,INBOUND_DOUBLE_COUNT,inbound_shipment,SHP-2026-003170,PO-2026-001298|SHP-2026-001064,D1: more than one ASN for the PO / shipped qty exceeds confirmed qty,LOGISTICS_ANALYST,shipments=2;shipped=864;confirmed=432,0
+EXC-000014,INBOUND_DOUBLE_COUNT,inbound_shipment,SHP-2026-003171,PO-2026-001451|SHP-2026-001171,D1: more than one ASN for the PO / shipped qty exceeds confirmed qty,LOGISTICS_ANALYST,shipments=2;shipped=21216;confirmed=10608,0
+EXC-000015,INBOUND_DOUBLE_COUNT,inbound_shipment,SHP-2026-003172,PO-2026-001483|SHP-2026-001199,D1: more than one ASN for the PO / shipped qty exceeds confirmed qty,LOGISTICS_ANALYST,shipments=2;shipped=13392;confirmed=6696,0
+EXC-000016,INBOUND_DOUBLE_COUNT,inbound_shipment,SHP-2026-003173,PO-2026-001680|SHP-2026-001328,D1: more than one ASN for the PO / shipped qty exceeds confirmed qty,LOGISTICS_ANALYST,shipments=2;shipped=6948;confirmed=3474,0
+EXC-000017,INBOUND_DOUBLE_COUNT,inbound_shipment,SHP-2026-003174,PO-2026-001845|SHP-2026-001444,D1: more than one ASN for the PO / shipped qty exceeds confirmed qty,LOGISTICS_ANALYST,shipments=2;shipped=2016;confirmed=1008,0
+EXC-000018,INBOUND_DOUBLE_COUNT,inbound_shipment,SHP-2026-003175,PO-2026-001851|SHP-2026-001449,D1: more than one ASN for the PO / shipped qty exceeds confirmed qty,LOGISTICS_ANALYST,shipments=2;shipped=9396;confirmed=4698,0
+EXC-000019,INBOUND_DOUBLE_COUNT,inbound_shipment,SHP-2026-003176,PO-2026-002093|SHP-2026-001617,D1: more than one ASN for the PO / shipped qty exceeds confirmed qty,LOGISTICS_ANALYST,shipments=2;shipped=21312;confirmed=10656,0
+EXC-000020,INBOUND_DOUBLE_COUNT,inbound_shipment,SHP-2026-003177,PO-2026-002256|SHP-2026-001725,D1: more than one ASN for the PO / shipped qty exceeds confirmed qty,LOGISTICS_ANALYST,shipments=2;shipped=43200;confirmed=21600,0
+EXC-000021,INBOUND_DOUBLE_COUNT,inbound_shipment,SHP-2026-003178,PO-2026-002297|SHP-2026-001748,D1: more than one ASN for the PO / shipped qty exceeds confirmed qty,LOGISTICS_ANALYST,shipments=2;shipped=10416;confirmed=5208,0
+EXC-000022,INBOUND_DOUBLE_COUNT,inbound_shipment,SHP-2026-003179,PO-2026-002385|SHP-2026-001801,D1: more than one ASN for the PO / shipped qty exceeds confirmed qty,LOGISTICS_ANALYST,shipments=2;shipped=27960;confirmed=13980,0
+EXC-000023,INBOUND_DOUBLE_COUNT,inbound_shipment,SHP-2026-003180,PO-2026-002493|SHP-2026-001877,D1: more than one ASN for the PO / shipped qty exceeds confirmed qty,LOGISTICS_ANALYST,shipments=2;shipped=3360;confirmed=1680,0
+EXC-000024,INBOUND_DOUBLE_COUNT,inbound_shipment,SHP-2026-003181,PO-2026-002503|SHP-2026-001881,D1: more than one ASN for the PO / shipped qty exceeds confirmed qty,LOGISTICS_ANALYST,shipments=2;shipped=14208;confirmed=7104,0
+EXC-000025,INBOUND_DOUBLE_COUNT,inbound_shipment,SHP-2026-003182,PO-2026-002655|SHP-2026-001977,D1: more than one ASN for the PO / shipped qty exceeds confirmed qty,LOGISTICS_ANALYST,shipments=2;shipped=2784;confirmed=1392,0
+EXC-000026,INBOUND_DOUBLE_COUNT,inbound_shipment,SHP-2026-003183,PO-2026-002675|SHP-2026-001990,D1: more than one ASN for the PO / shipped qty exceeds confirmed qty,LOGISTICS_ANALYST,shipments=2;shipped=3456;confirmed=1728,0
+EXC-000027,INBOUND_DOUBLE_COUNT,inbound_shipment,SHP-2026-003184,PO-2026-002762|SHP-2026-002050,D1: more than one ASN for the PO / shipped qty exceeds confirmed qty,LOGISTICS_ANALYST,shipments=2;shipped=3552;confirmed=1776,0
+EXC-000028,INBOUND_DOUBLE_COUNT,inbound_shipment,SHP-2026-003185,PO-2026-002827|SHP-2026-002086,D1: more than one ASN for the PO / shipped qty exceeds confirmed qty,LOGISTICS_ANALYST,shipments=2;shipped=20640;confirmed=10320,0
+EXC-000029,INBOUND_DOUBLE_COUNT,inbound_shipment,SHP-2026-003186,PO-2026-002853|SHP-2026-002103,D1: more than one ASN for the PO / shipped qty exceeds confirmed qty,LOGISTICS_ANALYST,shipments=2;shipped=68400;confirmed=34200,0
+EXC-000030,INBOUND_DOUBLE_COUNT,inbound_shipment,SHP-2026-003187,PO-2026-002940|SHP-2026-002157,D1: more than one ASN for the PO / shipped qty exceeds confirmed qty,LOGISTICS_ANALYST,shipments=2;shipped=11172;confirmed=5586,0
+EXC-000031,INBOUND_DOUBLE_COUNT,inbound_shipment,SHP-2026-003188,PO-2026-002977|SHP-2026-002184,D1: more than one ASN for the PO / shipped qty exceeds confirmed qty,LOGISTICS_ANALYST,shipments=2;shipped=9096;confirmed=4548,0
+EXC-000032,INBOUND_DOUBLE_COUNT,inbound_shipment,SHP-2026-003189,PO-2026-003071|SHP-2026-002240,D1: more than one ASN for the PO / shipped qty exceeds confirmed qty,LOGISTICS_ANALYST,shipments=2;shipped=7536;confirmed=3768,0
+EXC-000033,INBOUND_DOUBLE_COUNT,inbound_shipment,SHP-2026-003190,PO-2026-003157|SHP-2026-002289,D1: more than one ASN for the PO / shipped qty exceeds confirmed qty,LOGISTICS_ANALYST,shipments=2;shipped=9120;confirmed=4560,0
+EXC-000034,INBOUND_DOUBLE_COUNT,inbound_shipment,SHP-2026-003191,PO-2026-003175|SHP-2026-002299,D1: more than one ASN for the PO / shipped qty exceeds confirmed qty,LOGISTICS_ANALYST,shipments=2;shipped=19932;confirmed=9966,0
+EXC-000035,INBOUND_DOUBLE_COUNT,inbound_shipment,SHP-2026-003192,PO-2026-003713|SHP-2026-002536,D1: more than one ASN for the PO / shipped qty exceeds confirmed qty,LOGISTICS_ANALYST,shipments=2;shipped=1488;confirmed=744,0
+EXC-000036,INBOUND_DOUBLE_COUNT,inbound_shipment,SHP-2026-003193,PO-2026-003910|SHP-2026-002632,D1: more than one ASN for the PO / shipped qty exceeds confirmed qty,LOGISTICS_ANALYST,shipments=2;shipped=12192;confirmed=6096,0
+EXC-000037,INBOUND_DOUBLE_COUNT,inbound_shipment,SHP-2026-003194,PO-2026-004214|SHP-2026-002762,D1: more than one ASN for the PO / shipped qty exceeds confirmed qty,LOGISTICS_ANALYST,shipments=2;shipped=6960;confirmed=3480,0
+EXC-000038,INBOUND_DOUBLE_COUNT,inbound_shipment,SHP-2026-003195,PO-2026-004650|SHP-2026-002905,D1: more than one ASN for the PO / shipped qty exceeds confirmed qty,LOGISTICS_ANALYST,shipments=2;shipped=12672;confirmed=6336,0
+EXC-000039,INBOUND_DOUBLE_COUNT,inbound_shipment,SHP-2026-003196,PO-2026-004734|SHP-2026-002925,D1: more than one ASN for the PO / shipped qty exceeds confirmed qty,LOGISTICS_ANALYST,shipments=2;shipped=5472;confirmed=2736,0
+EXC-000040,INBOUND_DOUBLE_COUNT,inbound_shipment,SHP-2026-003197,PO-2026-005890|SHP-2026-003141,D1: more than one ASN for the PO / shipped qty exceeds confirmed qty,LOGISTICS_ANALYST,shipments=2;shipped=20640;confirmed=10320,0
+EXC-000041,SHORTAGE_WITHOUT_LEAD_TIME,purchase_order,PO-2026-006910,LT-SUP-0193-LOC-028,D4: promised_week earlier than order_week + lead_time_weeks,PLANNER,order=2026W02;promised=2026W02;lead_time=5,2026W07
+EXC-000042,SHORTAGE_WITHOUT_LEAD_TIME,purchase_order,PO-2026-007056,LT-SUP-0161-LOC-004,D4: promised_week earlier than order_week + lead_time_weeks,PLANNER,order=2026W02;promised=2026W02;lead_time=2,2026W04
+EXC-000043,SHORTAGE_WITHOUT_LEAD_TIME,purchase_order,PO-2026-007126,LT-SUP-0375-LOC-007,D4: promised_week earlier than order_week + lead_time_weeks,PLANNER,order=2026W02;promised=2026W02;lead_time=3,2026W05
+EXC-000044,SHORTAGE_WITHOUT_LEAD_TIME,purchase_order,PO-2026-007132,LT-SUP-0231-LOC-016,D4: promised_week earlier than order_week + lead_time_weeks,PLANNER,order=2026W02;promised=2026W02;lead_time=5,2026W07
+EXC-000045,SHORTAGE_WITHOUT_LEAD_TIME,purchase_order,PO-2026-007373,LT-SUP-0295-LOC-026,D4: promised_week earlier than order_week + lead_time_weeks,PLANNER,order=2026W03;promised=2026W03;lead_time=5,2026W08
+EXC-000046,SHORTAGE_WITHOUT_LEAD_TIME,purchase_order,PO-2026-007514,LT-SUP-0447-LOC-038,D4: promised_week earlier than order_week + lead_time_weeks,PLANNER,order=2026W03;promised=2026W03;lead_time=6,2026W09
+EXC-000047,SHORTAGE_WITHOUT_LEAD_TIME,purchase_order,PO-2026-007542,LT-SUP-0205-LOC-049,D4: promised_week earlier than order_week + lead_time_weeks,PLANNER,order=2026W03;promised=2026W03;lead_time=4,2026W07
+EXC-000048,SHORTAGE_WITHOUT_LEAD_TIME,purchase_order,PO-2026-007547,LT-SUP-0151-LOC-015,D4: promised_week earlier than order_week + lead_time_weeks,PLANNER,order=2026W03;promised=2026W03;lead_time=4,2026W07
+EXC-000049,SHORTAGE_WITHOUT_LEAD_TIME,purchase_order,PO-2026-007649,LT-SUP-0217-LOC-018,D4: promised_week earlier than order_week + lead_time_weeks,PLANNER,order=2026W03;promised=2026W03;lead_time=8,2026W11
+EXC-000050,SHORTAGE_WITHOUT_LEAD_TIME,purchase_order,PO-2026-007835,LT-SUP-0018-LOC-021,D4: promised_week earlier than order_week + lead_time_weeks,PLANNER,order=2026W04;promised=2026W04;lead_time=4,2026W08
+EXC-000051,SHORTAGE_WITHOUT_LEAD_TIME,purchase_order,PO-2026-007995,LT-SUP-0490-LOC-017,D4: promised_week earlier than order_week + lead_time_weeks,PLANNER,order=2026W05;promised=2026W05;lead_time=4,2026W09
+EXC-000052,SHORTAGE_WITHOUT_LEAD_TIME,purchase_order,PO-2026-008003,LT-SUP-0121-LOC-044,D4: promised_week earlier than order_week + lead_time_weeks,PLANNER,order=2026W05;promised=2026W05;lead_time=6,2026W11
+EXC-000053,SHORTAGE_WITHOUT_LEAD_TIME,purchase_order,PO-2026-008019,LT-SUP-0350-LOC-035,D4: promised_week earlier than order_week + lead_time_weeks,PLANNER,order=2026W05;promised=2026W05;lead_time=5,2026W10
+EXC-000054,SHORTAGE_WITHOUT_LEAD_TIME,purchase_order,PO-2026-008106,LT-SUP-0337-LOC-028,D4: promised_week earlier than order_week + lead_time_weeks,PLANNER,order=2026W05;promised=2026W05;lead_time=5,2026W10
+EXC-000055,SHORTAGE_WITHOUT_LEAD_TIME,purchase_order,PO-2026-008129,LT-SUP-0027-LOC-030,D4: promised_week earlier than order_week + lead_time_weeks,PLANNER,order=2026W05;promised=2026W05;lead_time=5,2026W10
+EXC-000056,SHORTAGE_WITHOUT_LEAD_TIME,purchase_order,PO-2026-008343,LT-SUP-0445-LOC-020,D4: promised_week earlier than order_week + lead_time_weeks,PLANNER,order=2026W07;promised=2026W07;lead_time=2,2026W09
+EXC-000057,SHORTAGE_WITHOUT_LEAD_TIME,purchase_order,PO-2026-008460,LT-SUP-0054-LOC-010,D4: promised_week earlier than order_week + lead_time_weeks,PLANNER,order=2026W08;promised=2026W08;lead_time=9,2026W17
+EXC-000058,SHORTAGE_WITHOUT_LEAD_TIME,purchase_order,PO-2026-008498,LT-SUP-0100-LOC-034,D4: promised_week earlier than order_week + lead_time_weeks,PLANNER,order=2026W09;promised=2026W09;lead_time=4,2026W13
+EXC-000059,SHORTAGE_WITHOUT_LEAD_TIME,purchase_order,PO-2026-008546,LT-SUP-0422-LOC-035,D4: promised_week earlier than order_week + lead_time_weeks,PLANNER,order=2026W11;promised=2026W11;lead_time=5,2026W16
+EXC-000060,SHORTAGE_WITHOUT_LEAD_TIME,purchase_order,PO-2026-008580,LT-SUP-0442-LOC-015,D4: promised_week earlier than order_week + lead_time_weeks,PLANNER,order=2026W12;promised=2026W12;lead_time=9,2026W21
+EXC-000061,SHORTAGE_WITHOUT_LEAD_TIME,purchase_order,PO-2026-008673,LT-SUP-0201-LOC-007,D4: promised_week earlier than order_week + lead_time_weeks,PLANNER,order=2026W15;promised=2026W15;lead_time=5,2026W20
+EXC-000062,SHORTAGE_WITHOUT_LEAD_TIME,purchase_order,PO-2026-008708,LT-SUP-0213-LOC-014,D4: promised_week earlier than order_week + lead_time_weeks,PLANNER,order=2026W16;promised=2026W16;lead_time=5,2026W21
+EXC-000063,SHORTAGE_WITHOUT_LEAD_TIME,purchase_order,PO-2026-008716,LT-SUP-0452-LOC-027,D4: promised_week earlier than order_week + lead_time_weeks,PLANNER,order=2026W16;promised=2026W16;lead_time=3,2026W19
+EXC-000064,SHORTAGE_WITHOUT_LEAD_TIME,purchase_order,PO-2026-008816,LT-SUP-0143-LOC-045,D4: promised_week earlier than order_week + lead_time_weeks,PLANNER,order=2026W19;promised=2026W19;lead_time=8,2026W27
+EXC-000065,SHORTAGE_WITHOUT_LEAD_TIME,purchase_order,PO-2026-008835,LT-SUP-0022-LOC-023,D4: promised_week earlier than order_week + lead_time_weeks,PLANNER,order=2026W19;promised=2026W19;lead_time=6,2026W25
+EXC-000066,SHORTAGE_WITHOUT_LEAD_TIME,purchase_order,PO-2026-008880,LT-SUP-0424-LOC-018,D4: promised_week earlier than order_week + lead_time_weeks,PLANNER,order=2026W20;promised=2026W20;lead_time=4,2026W24
+EXC-000067,SHORTAGE_WITHOUT_LEAD_TIME,purchase_order,PO-2026-008898,LT-SUP-0073-LOC-029,D4: promised_week earlier than order_week + lead_time_weeks,PLANNER,order=2026W21;promised=2026W21;lead_time=5,2026W26
+EXC-000068,SHORTAGE_WITHOUT_LEAD_TIME,purchase_order,PO-2026-008907,LT-SUP-0477-LOC-047,D4: promised_week earlier than order_week + lead_time_weeks,PLANNER,order=2026W21;promised=2026W21;lead_time=13,2026W34
+EXC-000069,SHORTAGE_WITHOUT_LEAD_TIME,purchase_order,PO-2026-008977,LT-SUP-0227-LOC-046,D4: promised_week earlier than order_week + lead_time_weeks,PLANNER,order=2026W22;promised=2026W22;lead_time=4,2026W26
+EXC-000070,SHORTAGE_WITHOUT_LEAD_TIME,purchase_order,PO-2026-009090,LT-SUP-0332-LOC-044,D4: promised_week earlier than order_week + lead_time_weeks,PLANNER,order=2026W25;promised=2026W25;lead_time=14,2026W39
+EXC-000071,SHORTAGE_WITHOUT_LEAD_TIME,purchase_order,PO-2026-009162,LT-SUP-0128-LOC-040,D4: promised_week earlier than order_week + lead_time_weeks,PLANNER,order=2026W26;promised=2026W26;lead_time=5,2026W31
+EXC-000072,SHORTAGE_WITHOUT_LEAD_TIME,purchase_order,PO-2026-009253,LT-SUP-0443-LOC-033,D4: promised_week earlier than order_week + lead_time_weeks,PLANNER,order=2026W28;promised=2026W28;lead_time=4,2026W32
+EXC-000073,SHORTAGE_WITHOUT_LEAD_TIME,purchase_order,PO-2026-009371,LT-SUP-0056-LOC-047,D4: promised_week earlier than order_week + lead_time_weeks,PLANNER,order=2026W30;promised=2026W30;lead_time=2,2026W32
+EXC-000074,SHORTAGE_WITHOUT_LEAD_TIME,purchase_order,PO-2026-009409,LT-SUP-0149-LOC-007,D4: promised_week earlier than order_week + lead_time_weeks,PLANNER,order=2026W31;promised=2026W31;lead_time=2,2026W33
+EXC-000075,SHORTAGE_WITHOUT_LEAD_TIME,purchase_order,PO-2026-009460,LT-SUP-0358-LOC-026,D4: promised_week earlier than order_week + lead_time_weeks,PLANNER,order=2026W32;promised=2026W32;lead_time=3,2026W35
+EXC-000076,SHORTAGE_WITHOUT_LEAD_TIME,purchase_order,PO-2026-009461,LT-SUP-0026-LOC-009,D4: promised_week earlier than order_week + lead_time_weeks,PLANNER,order=2026W32;promised=2026W32;lead_time=7,2026W39
+EXC-000077,SHORTAGE_WITHOUT_LEAD_TIME,purchase_order,PO-2026-009522,LT-SUP-0179-LOC-010,D4: promised_week earlier than order_week + lead_time_weeks,PLANNER,order=2026W33;promised=2026W33;lead_time=8,2026W41
+EXC-000078,SHORTAGE_WITHOUT_LEAD_TIME,purchase_order,PO-2026-009813,LT-SUP-0316-LOC-003,D4: promised_week earlier than order_week + lead_time_weeks,PLANNER,order=2026W39;promised=2026W39;lead_time=8,2026W47
+EXC-000079,SHORTAGE_WITHOUT_LEAD_TIME,purchase_order,PO-2026-009861,LT-SUP-0447-LOC-047,D4: promised_week earlier than order_week + lead_time_weeks,PLANNER,order=2026W41;promised=2026W41;lead_time=6,2026W47
+EXC-000080,SHORTAGE_WITHOUT_LEAD_TIME,purchase_order,PO-2026-009945,LT-SUP-0373-LOC-038,D4: promised_week earlier than order_week + lead_time_weeks,PLANNER,order=2026W44;promised=2026W44;lead_time=6,2026W50
+EXC-000081,SUBSTITUTE_NOT_APPROVED,purchase_order,PO-2026-010001,SUB-SKU-001343-SKU-001132,D2: substitute pair is not APPROVED,PLANNER,review_status=PENDING,SKU-001132
+EXC-000082,SUBSTITUTE_NOT_APPROVED,purchase_order,PO-2026-010002,SUB-SKU-002415-SKU-002377,D2: substitute pair is not APPROVED,PLANNER,review_status=REJECTED,SKU-002377
+EXC-000083,SUBSTITUTE_NOT_APPROVED,purchase_order,PO-2026-010003,SUB-SKU-001162-SKU-001988,D2: substitute pair is not APPROVED,PLANNER,review_status=PENDING,SKU-001988
+EXC-000084,SUBSTITUTE_NOT_APPROVED,purchase_order,PO-2026-010004,SUB-SKU-002385-SKU-001507,D2: substitute pair is not APPROVED,PLANNER,review_status=REJECTED,SKU-001507
+EXC-000085,SUBSTITUTE_NOT_APPROVED,purchase_order,PO-2026-010005,SUB-SKU-002781-SKU-001901,D2: substitute pair is not APPROVED,PLANNER,review_status=PENDING,SKU-001901
+EXC-000086,SUBSTITUTE_NOT_APPROVED,purchase_order,PO-2026-010006,SUB-SKU-002781-SKU-001901,D2: substitute pair is not APPROVED,PLANNER,review_status=PENDING,SKU-001901
+EXC-000087,SUBSTITUTE_NOT_APPROVED,purchase_order,PO-2026-010007,SUB-SKU-001900-SKU-002130,D2: substitute pair is not APPROVED,PLANNER,review_status=PENDING,SKU-002130
+EXC-000088,SUBSTITUTE_NOT_APPROVED,purchase_order,PO-2026-010008,SUB-SKU-000974-SKU-002533,D2: substitute pair is not APPROVED,PLANNER,review_status=PENDING,SKU-002533
+EXC-000089,SUBSTITUTE_NOT_APPROVED,purchase_order,PO-2026-010009,SUB-SKU-000717-SKU-001942,D2: substitute pair is not APPROVED,PLANNER,review_status=PENDING,SKU-001942
+EXC-000090,SUBSTITUTE_NOT_APPROVED,purchase_order,PO-2026-010010,SUB-SKU-000761-SKU-001477,D2: substitute pair is not APPROVED,PLANNER,review_status=PENDING,SKU-001477
+EXC-000091,SUBSTITUTE_NOT_APPROVED,purchase_order,PO-2026-010011,SUB-SKU-002907-SKU-000335,D2: substitute pair is not APPROVED,PLANNER,review_status=PENDING,SKU-000335
+EXC-000092,SUBSTITUTE_NOT_APPROVED,purchase_order,PO-2026-010012,SUB-SKU-002550-SKU-001676,D2: substitute pair is not APPROVED,PLANNER,review_status=REJECTED,SKU-001676
+EXC-000093,SUBSTITUTE_NOT_APPROVED,purchase_order,PO-2026-010013,SUB-SKU-002533-SKU-001256,D2: substitute pair is not APPROVED,PLANNER,review_status=REJECTED,SKU-001256
+EXC-000094,SUBSTITUTE_NOT_APPROVED,purchase_order,PO-2026-010014,SUB-SKU-001768-SKU-001619,D2: substitute pair is not APPROVED,PLANNER,review_status=REJECTED,SKU-001619
+EXC-000095,SUBSTITUTE_NOT_APPROVED,purchase_order,PO-2026-010015,SUB-SKU-000067-SKU-002905,D2: substitute pair is not APPROVED,PLANNER,review_status=PENDING,SKU-002905
+EXC-000096,SUBSTITUTE_NOT_APPROVED,purchase_order,PO-2026-010016,SUB-SKU-000454-SKU-002988,D2: substitute pair is not APPROVED,PLANNER,review_status=REJECTED,SKU-002988
+EXC-000097,SUBSTITUTE_NOT_APPROVED,purchase_order,PO-2026-010017,SUB-SKU-000487-SKU-001999,D2: substitute pair is not APPROVED,PLANNER,review_status=REJECTED,SKU-001999
+EXC-000098,SUBSTITUTE_NOT_APPROVED,purchase_order,PO-2026-010018,SUB-SKU-000351-SKU-001942,D2: substitute pair is not APPROVED,PLANNER,review_status=REJECTED,SKU-001942
+EXC-000099,SUBSTITUTE_NOT_APPROVED,purchase_order,PO-2026-010019,SUB-SKU-000567-SKU-002299,D2: substitute pair is not APPROVED,PLANNER,review_status=REJECTED,SKU-002299
+EXC-000100,SUBSTITUTE_NOT_APPROVED,purchase_order,PO-2026-010020,SUB-SKU-002377-SKU-000634,D2: substitute pair is not APPROVED,PLANNER,review_status=PENDING,SKU-000634
+EXC-000101,SUBSTITUTE_NOT_APPROVED,purchase_order,PO-2026-010021,SUB-SKU-000751-SKU-001030,D2: substitute pair is not APPROVED,PLANNER,review_status=REJECTED,SKU-001030
+EXC-000102,SUBSTITUTE_NOT_APPROVED,purchase_order,PO-2026-010022,SUB-SKU-001908-SKU-002896,D2: substitute pair is not APPROVED,PLANNER,review_status=REJECTED,SKU-002896
+EXC-000103,SUBSTITUTE_NOT_APPROVED,purchase_order,PO-2026-010023,SUB-SKU-000209-SKU-002721,D2: substitute pair is not APPROVED,PLANNER,review_status=REJECTED,SKU-002721
+EXC-000104,SUBSTITUTE_NOT_APPROVED,purchase_order,PO-2026-010024,SUB-SKU-001162-SKU-001988,D2: substitute pair is not APPROVED,PLANNER,review_status=PENDING,SKU-001988
+EXC-000105,SUBSTITUTE_NOT_APPROVED,purchase_order,PO-2026-010025,SUB-SKU-002509-SKU-000086,D2: substitute pair is not APPROVED,PLANNER,review_status=PENDING,SKU-000086
+EXC-000106,SUBSTITUTE_NOT_APPROVED,purchase_order,PO-2026-010026,SUB-SKU-001393-SKU-002589,D2: substitute pair is not APPROVED,PLANNER,review_status=PENDING,SKU-002589
+EXC-000107,SUBSTITUTE_NOT_APPROVED,purchase_order,PO-2026-010027,SUB-SKU-000838-SKU-001782,D2: substitute pair is not APPROVED,PLANNER,review_status=PENDING,SKU-001782
+EXC-000108,SUBSTITUTE_NOT_APPROVED,purchase_order,PO-2026-010028,SUB-SKU-000896-SKU-001132,D2: substitute pair is not APPROVED,PLANNER,review_status=PENDING,SKU-001132
+EXC-000109,SUBSTITUTE_NOT_APPROVED,purchase_order,PO-2026-010029,SUB-SKU-002377-SKU-000634,D2: substitute pair is not APPROVED,PLANNER,review_status=PENDING,SKU-000634
+EXC-000110,SUBSTITUTE_NOT_APPROVED,purchase_order,PO-2026-010030,SUB-SKU-000896-SKU-001132,D2: substitute pair is not APPROVED,PLANNER,review_status=PENDING,SKU-001132
+EXC-000111,SUBSTITUTE_NOT_APPROVED,purchase_order,PO-2026-010031,SUB-SKU-002046-SKU-001148,D2: substitute pair is not APPROVED,PLANNER,review_status=PENDING,SKU-001148
+EXC-000112,SUBSTITUTE_NOT_APPROVED,purchase_order,PO-2026-010032,SUB-SKU-000512-SKU-000174,D2: substitute pair is not APPROVED,PLANNER,review_status=REJECTED,SKU-000174
+EXC-000113,SUBSTITUTE_NOT_APPROVED,purchase_order,PO-2026-010033,SUB-SKU-000454-SKU-002988,D2: substitute pair is not APPROVED,PLANNER,review_status=REJECTED,SKU-002988
+EXC-000114,SUBSTITUTE_NOT_APPROVED,purchase_order,PO-2026-010034,SUB-SKU-001609-SKU-000430,D2: substitute pair is not APPROVED,PLANNER,review_status=PENDING,SKU-000430
+EXC-000115,SUBSTITUTE_NOT_APPROVED,purchase_order,PO-2026-010035,SUB-SKU-000089-SKU-001355,D2: substitute pair is not APPROVED,PLANNER,review_status=REJECTED,SKU-001355
+EXC-000116,SUBSTITUTE_NOT_APPROVED,purchase_order,PO-2026-010036,SUB-SKU-000530-SKU-002349,D2: substitute pair is not APPROVED,PLANNER,review_status=REJECTED,SKU-002349
+EXC-000117,SUBSTITUTE_NOT_APPROVED,purchase_order,PO-2026-010037,SUB-SKU-000838-SKU-001782,D2: substitute pair is not APPROVED,PLANNER,review_status=PENDING,SKU-001782
+EXC-000118,SUBSTITUTE_NOT_APPROVED,purchase_order,PO-2026-010038,SUB-SKU-001397-SKU-001355,D2: substitute pair is not APPROVED,PLANNER,review_status=PENDING,SKU-001355
+EXC-000119,SUBSTITUTE_NOT_APPROVED,purchase_order,PO-2026-010039,SUB-SKU-001519-SKU-000682,D2: substitute pair is not APPROVED,PLANNER,review_status=REJECTED,SKU-000682
+EXC-000120,SUBSTITUTE_NOT_APPROVED,purchase_order,PO-2026-010040,SUB-SKU-002617-SKU-000872,D2: substitute pair is not APPROVED,PLANNER,review_status=REJECTED,SKU-000872
+EXC-000121,SUPPLIER_CAPACITY_EXCEEDED,purchase_order,PO-2026-010041,SCAP-SUP-0073-2026W38,D3: cumulative confirmed qty exceeds supplier weekly capacity,PLANNER,load=34656;capacity=25476,25236
+EXC-000122,SUPPLIER_CAPACITY_EXCEEDED,purchase_order,PO-2026-010042,SCAP-SUP-0421-2026W15,D3: cumulative confirmed qty exceeds supplier weekly capacity,PLANNER,load=21936;capacity=16171,16171
+EXC-000123,SUPPLIER_CAPACITY_EXCEEDED,purchase_order,PO-2026-010043,SCAP-SUP-0247-2026W36,D3: cumulative confirmed qty exceeds supplier weekly capacity,PLANNER,load=26952;capacity=19431,19431
+EXC-000124,SUPPLIER_CAPACITY_EXCEEDED,purchase_order,PO-2026-010044,SCAP-SUP-0478-2026W11,D3: cumulative confirmed qty exceeds supplier weekly capacity,PLANNER,load=84648;capacity=68518,68518
+EXC-000125,SUPPLIER_CAPACITY_EXCEEDED,purchase_order,PO-2026-010045,SCAP-SUP-0465-2026W22,D3: cumulative confirmed qty exceeds supplier weekly capacity,PLANNER,load=14496;capacity=10568,10568
+EXC-000126,SUPPLIER_CAPACITY_EXCEEDED,purchase_order,PO-2026-010046,SCAP-SUP-0231-2026W40,D3: cumulative confirmed qty exceeds supplier weekly capacity,PLANNER,load=22722;capacity=17125,17125
+EXC-000127,SUPPLIER_CAPACITY_EXCEEDED,purchase_order,PO-2026-010047,SCAP-SUP-0073-2026W13,D3: cumulative confirmed qty exceeds supplier weekly capacity,PLANNER,load=41568;capacity=27278,27278
+EXC-000128,SUPPLIER_CAPACITY_EXCEEDED,purchase_order,PO-2026-010048,SCAP-SUP-0255-2026W16,D3: cumulative confirmed qty exceeds supplier weekly capacity,PLANNER,load=20796;capacity=14278,14278
+EXC-000129,SUPPLIER_CAPACITY_EXCEEDED,purchase_order,PO-2026-010049,SCAP-SUP-0029-2026W38,D3: cumulative confirmed qty exceeds supplier weekly capacity,PLANNER,load=18474;capacity=14059,14059
+EXC-000130,SUPPLIER_CAPACITY_EXCEEDED,purchase_order,PO-2026-010050,SCAP-SUP-0353-2026W09,D3: cumulative confirmed qty exceeds supplier weekly capacity,PLANNER,load=30240;capacity=19217,19217
+EXC-000131,SUPPLIER_CAPACITY_EXCEEDED,purchase_order,PO-2026-010051,SCAP-SUP-0406-2026W24,D3: cumulative confirmed qty exceeds supplier weekly capacity,PLANNER,load=45900;capacity=28855,28855
+EXC-000132,SUPPLIER_CAPACITY_EXCEEDED,purchase_order,PO-2026-010052,SCAP-SUP-0360-2026W24,D3: cumulative confirmed qty exceeds supplier weekly capacity,PLANNER,load=73752;capacity=50027,50027
+EXC-000133,SUPPLIER_CAPACITY_EXCEEDED,purchase_order,PO-2026-010053,SCAP-SUP-0445-2026W36,D3: cumulative confirmed qty exceeds supplier weekly capacity,PLANNER,load=23652;capacity=18265,17797
+EXC-000134,SUPPLIER_CAPACITY_EXCEEDED,purchase_order,PO-2026-010054,SCAP-SUP-0188-2026W26,D3: cumulative confirmed qty exceeds supplier weekly capacity,PLANNER,load=36384;capacity=29362,29362
+EXC-000135,SUPPLIER_CAPACITY_EXCEEDED,purchase_order,PO-2026-010055,SCAP-SUP-0207-2026W15,D3: cumulative confirmed qty exceeds supplier weekly capacity,PLANNER,load=28608;capacity=20319,20319
+EXC-000136,SUPPLIER_CAPACITY_EXCEEDED,purchase_order,PO-2026-010056,SCAP-SUP-0202-2026W28,D3: cumulative confirmed qty exceeds supplier weekly capacity,PLANNER,load=69408;capacity=56441,56441
+EXC-000137,SUPPLIER_CAPACITY_EXCEEDED,purchase_order,PO-2026-010057,SCAP-SUP-0229-2026W50,D3: cumulative confirmed qty exceeds supplier weekly capacity,PLANNER,load=114864;capacity=84143,84143
+EXC-000138,SUPPLIER_CAPACITY_EXCEEDED,purchase_order,PO-2026-010058,SCAP-SUP-0043-2026W07,D3: cumulative confirmed qty exceeds supplier weekly capacity,PLANNER,load=47112;capacity=36095,36095
+EXC-000139,SUPPLIER_CAPACITY_EXCEEDED,purchase_order,PO-2026-010059,SCAP-SUP-0250-2026W09,D3: cumulative confirmed qty exceeds supplier weekly capacity,PLANNER,load=8322;capacity=6703,6703
+EXC-000140,SUPPLIER_CAPACITY_EXCEEDED,purchase_order,PO-2026-010060,SCAP-SUP-0101-2026W20,D3: cumulative confirmed qty exceeds supplier weekly capacity,PLANNER,load=72462;capacity=59677,59677
+EXC-000141,SUPPLIER_CAPACITY_EXCEEDED,purchase_order,PO-2026-010061,SCAP-SUP-0041-2026W13,D3: cumulative confirmed qty exceeds supplier weekly capacity,PLANNER,load=27552;capacity=18430,18430
+EXC-000142,SUPPLIER_CAPACITY_EXCEEDED,purchase_order,PO-2026-010062,SCAP-SUP-0436-2026W10,D3: cumulative confirmed qty exceeds supplier weekly capacity,PLANNER,load=14784;capacity=11465,11465
+EXC-000143,SUPPLIER_CAPACITY_EXCEEDED,purchase_order,PO-2026-010063,SCAP-SUP-0102-2026W21,D3: cumulative confirmed qty exceeds supplier weekly capacity,PLANNER,load=81360;capacity=65880,65880
+EXC-000144,SUPPLIER_CAPACITY_EXCEEDED,purchase_order,PO-2026-010064,SCAP-SUP-0334-2026W46,D3: cumulative confirmed qty exceeds supplier weekly capacity,PLANNER,load=78144;capacity=64128,64128
+EXC-000145,SUPPLIER_CAPACITY_EXCEEDED,purchase_order,PO-2026-010065,SCAP-SUP-0379-2026W39,D3: cumulative confirmed qty exceeds supplier weekly capacity,PLANNER,load=94296;capacity=60873,60873
+EXC-000146,SUPPLIER_CAPACITY_EXCEEDED,purchase_order,PO-2026-010066,SCAP-SUP-0001-2026W39,D3: cumulative confirmed qty exceeds supplier weekly capacity,PLANNER,load=15072;capacity=11768,11768
+EXC-000147,SUPPLIER_CAPACITY_EXCEEDED,purchase_order,PO-2026-010067,SCAP-SUP-0377-2026W42,D3: cumulative confirmed qty exceeds supplier weekly capacity,PLANNER,load=49008;capacity=38128,38128
+EXC-000148,SUPPLIER_CAPACITY_EXCEEDED,purchase_order,PO-2026-010068,SCAP-SUP-0454-2026W30,D3: cumulative confirmed qty exceeds supplier weekly capacity,PLANNER,load=38880;capacity=28901,28901
+EXC-000149,SUPPLIER_CAPACITY_EXCEEDED,purchase_order,PO-2026-010069,SCAP-SUP-0386-2026W43,D3: cumulative confirmed qty exceeds supplier weekly capacity,PLANNER,load=37344;capacity=27840,27840
+EXC-000150,SUPPLIER_CAPACITY_EXCEEDED,purchase_order,PO-2026-010070,SCAP-SUP-0048-2026W43,D3: cumulative confirmed qty exceeds supplier weekly capacity,PLANNER,load=25824;capacity=17551,17551
+EXC-000151,SUPPLIER_CAPACITY_EXCEEDED,purchase_order,PO-2026-010071,SCAP-SUP-0094-2026W28,D3: cumulative confirmed qty exceeds supplier weekly capacity,PLANNER,load=257856;capacity=177070,177070
+EXC-000152,SUPPLIER_CAPACITY_EXCEEDED,purchase_order,PO-2026-010072,SCAP-SUP-0199-2026W42,D3: cumulative confirmed qty exceeds supplier weekly capacity,PLANNER,load=56016;capacity=41606,41510
+EXC-000153,SUPPLIER_CAPACITY_EXCEEDED,purchase_order,PO-2026-010073,SCAP-SUP-0347-2026W45,D3: cumulative confirmed qty exceeds supplier weekly capacity,PLANNER,load=63432;capacity=48639,48639
+EXC-000154,SUPPLIER_CAPACITY_EXCEEDED,purchase_order,PO-2026-010074,SCAP-SUP-0097-2026W10,D3: cumulative confirmed qty exceeds supplier weekly capacity,PLANNER,load=29100;capacity=21835,21835
+EXC-000155,SUPPLIER_CAPACITY_EXCEEDED,purchase_order,PO-2026-010075,SCAP-SUP-0324-2026W08,D3: cumulative confirmed qty exceeds supplier weekly capacity,PLANNER,load=25956;capacity=19147,12103
+EXC-000156,SUPPLIER_CAPACITY_EXCEEDED,purchase_order,PO-2026-010076,SCAP-SUP-0334-2026W07,D3: cumulative confirmed qty exceeds supplier weekly capacity,PLANNER,load=91038;capacity=64085,62999
+EXC-000157,SUPPLIER_CAPACITY_EXCEEDED,purchase_order,PO-2026-010077,SCAP-SUP-0039-2026W09,D3: cumulative confirmed qty exceeds supplier weekly capacity,PLANNER,load=54330;capacity=41735,41735
+EXC-000158,SUPPLIER_CAPACITY_EXCEEDED,purchase_order,PO-2026-010078,SCAP-SUP-0264-2026W49,D3: cumulative confirmed qty exceeds supplier weekly capacity,PLANNER,load=209724;capacity=135985,135985
+EXC-000159,SUPPLIER_CAPACITY_EXCEEDED,purchase_order,PO-2026-010079,SCAP-SUP-0102-2026W15,D3: cumulative confirmed qty exceeds supplier weekly capacity,PLANNER,load=83616;capacity=69458,69458
+EXC-000160,SUPPLIER_CAPACITY_EXCEEDED,purchase_order,PO-2026-010080,SCAP-SUP-0232-2026W23,D3: cumulative confirmed qty exceeds supplier weekly capacity,PLANNER,load=33546;capacity=22405,22405
+EXC-000161,UOM_MISMATCH,purchase_order,PO-2026-002361,UOM-SKU-000596-CASE,D5: order_uom deviates from contract,PLANNER,order_qty=96;order_uom=EA;contract_uom=CASE;pack=48,4608
+EXC-000162,UOM_MISMATCH,purchase_order,PO-2026-002435,UOM-SKU-000841-CASE,D5: order_uom deviates from contract and EA qty not a pack multiple,PLANNER,order_qty=55;order_uom=EA;contract_uom=CASE;pack=12,660
+EXC-000163,UOM_MISMATCH,purchase_order,PO-2026-002606,UOM-SKU-001361-CASE,D5: order_uom deviates from contract and EA qty not a pack multiple,PLANNER,order_qty=453;order_uom=EA;contract_uom=CASE;pack=24,10872
+EXC-000164,UOM_MISMATCH,purchase_order,PO-2026-003736,UOM-SKU-001912-CASE,D5: order_uom deviates from contract and EA qty not a pack multiple,PLANNER,order_qty=102;order_uom=EA;contract_uom=CASE;pack=24,2448
+EXC-000165,UOM_MISMATCH,purchase_order,PO-2026-003945,UOM-SKU-002523-CASE,D5: order_uom deviates from contract and EA qty not a pack multiple,PLANNER,order_qty=348;order_uom=EA;contract_uom=CASE;pack=24,8352
+EXC-000166,UOM_MISMATCH,purchase_order,PO-2026-004000,UOM-SKU-002662-CASE,D5: order_uom deviates from contract and EA qty not a pack multiple,PLANNER,order_qty=344;order_uom=EA;contract_uom=CASE;pack=12,4128
+EXC-000167,UOM_MISMATCH,purchase_order,PO-2026-004044,UOM-SKU-002765-CASE,D5: order_uom deviates from contract and EA qty not a pack multiple,PLANNER,order_qty=1309;order_uom=EA;contract_uom=CASE;pack=6,7854
+EXC-000168,UOM_MISMATCH,purchase_order,PO-2026-004146,UOM-SKU-000049-CASE,D5: order_uom deviates from contract and EA qty not a pack multiple,PLANNER,order_qty=75;order_uom=EA;contract_uom=CASE;pack=24,1800
+EXC-000169,UOM_MISMATCH,purchase_order,PO-2026-004727,UOM-SKU-001725-CASE,D5: order_uom deviates from contract and EA qty not a pack multiple,PLANNER,order_qty=683;order_uom=EA;contract_uom=CASE;pack=12,8196
+EXC-000170,UOM_MISMATCH,purchase_order,PO-2026-004774,UOM-SKU-001862-CASE,D5: order_uom deviates from contract and EA qty not a pack multiple,PLANNER,order_qty=19;order_uom=EA;contract_uom=CASE;pack=48,912
+EXC-000171,UOM_MISMATCH,purchase_order,PO-2026-005389,UOM-SKU-000582-CASE,D5: order_uom deviates from contract and EA qty not a pack multiple,PLANNER,order_qty=2325;order_uom=EA;contract_uom=CASE;pack=6,13950
+EXC-000172,UOM_MISMATCH,purchase_order,PO-2026-005540,UOM-SKU-001006-CASE,D5: order_uom deviates from contract and EA qty not a pack multiple,PLANNER,order_qty=92;order_uom=EA;contract_uom=CASE;pack=6,552
+EXC-000173,UOM_MISMATCH,purchase_order,PO-2026-005845,UOM-SKU-002121-CASE,D5: order_uom deviates from contract and EA qty not a pack multiple,PLANNER,order_qty=902;order_uom=EA;contract_uom=CASE;pack=12,10824
+EXC-000174,UOM_MISMATCH,purchase_order,PO-2026-006020,UOM-SKU-002858-CASE,D5: order_uom deviates from contract and EA qty not a pack multiple,PLANNER,order_qty=23;order_uom=EA;contract_uom=CASE;pack=24,552
+EXC-000175,UOM_MISMATCH,purchase_order,PO-2026-006311,UOM-SKU-001044-CASE,D5: order_uom deviates from contract and EA qty not a pack multiple,PLANNER,order_qty=29;order_uom=EA;contract_uom=CASE;pack=24,696
+EXC-000176,UOM_MISMATCH,purchase_order,PO-2026-006645,UOM-SKU-002373-CASE,D5: order_uom deviates from contract,PLANNER,order_qty=354;order_uom=EA;contract_uom=CASE;pack=6,2124
+EXC-000177,UOM_MISMATCH,purchase_order,PO-2026-006646,UOM-SKU-002381-CASE,D5: order_uom deviates from contract and EA qty not a pack multiple,PLANNER,order_qty=82;order_uom=EA;contract_uom=CASE;pack=24,1968
+EXC-000178,UOM_MISMATCH,purchase_order,PO-2026-006696,UOM-SKU-002579-CASE,D5: order_uom deviates from contract and EA qty not a pack multiple,PLANNER,order_qty=2303;order_uom=EA;contract_uom=CASE;pack=6,13818
+EXC-000179,UOM_MISMATCH,purchase_order,PO-2026-006746,UOM-SKU-002810-CASE,D5: order_uom deviates from contract and EA qty not a pack multiple,PLANNER,order_qty=110;order_uom=EA;contract_uom=CASE;pack=48,5280
+EXC-000180,UOM_MISMATCH,purchase_order,PO-2026-007528,UOM-SKU-001662-CASE,D5: order_uom deviates from contract and EA qty not a pack multiple,PLANNER,order_qty=25;order_uom=EA;contract_uom=CASE;pack=48,1200
+EXC-000181,UOM_MISMATCH,purchase_order,PO-2026-007615,UOM-SKU-002381-CASE,D5: order_uom deviates from contract and EA qty not a pack multiple,PLANNER,order_qty=155;order_uom=EA;contract_uom=CASE;pack=24,3720
+EXC-000182,UOM_MISMATCH,purchase_order,PO-2026-007627,UOM-SKU-002438-CASE,D5: order_uom deviates from contract and EA qty not a pack multiple,PLANNER,order_qty=42;order_uom=EA;contract_uom=CASE;pack=24,1008
+EXC-000183,UOM_MISMATCH,purchase_order,PO-2026-007783,UOM-SKU-000832-CASE,D5: order_uom deviates from contract and EA qty not a pack multiple,PLANNER,order_qty=54;order_uom=EA;contract_uom=CASE;pack=48,2592
+EXC-000184,UOM_MISMATCH,purchase_order,PO-2026-007813,UOM-SKU-001116-CASE,D5: order_uom deviates from contract and EA qty not a pack multiple,PLANNER,order_qty=189;order_uom=EA;contract_uom=CASE;pack=12,2268
+EXC-000185,UOM_MISMATCH,purchase_order,PO-2026-007830,UOM-SKU-001322-CASE,D5: order_uom deviates from contract and EA qty not a pack multiple,PLANNER,order_qty=29;order_uom=EA;contract_uom=CASE;pack=48,1392
+EXC-000186,UOM_MISMATCH,purchase_order,PO-2026-007993,UOM-SKU-000067-CASE,D5: order_uom deviates from contract and EA qty not a pack multiple,PLANNER,order_qty=159;order_uom=EA;contract_uom=CASE;pack=24,3816
+EXC-000187,UOM_MISMATCH,purchase_order,PO-2026-008263,UOM-SKU-001690-CASE,D5: order_uom deviates from contract and EA qty not a pack multiple,PLANNER,order_qty=1375;order_uom=EA;contract_uom=CASE;pack=6,8250
+EXC-000188,UOM_MISMATCH,purchase_order,PO-2026-008739,UOM-SKU-001850-CASE,D5: order_uom deviates from contract and EA qty not a pack multiple,PLANNER,order_qty=33;order_uom=EA;contract_uom=CASE;pack=6,198
+EXC-000189,UOM_MISMATCH,purchase_order,PO-2026-008857,UOM-SKU-000450-CASE,D5: order_uom deviates from contract and EA qty not a pack multiple,PLANNER,order_qty=7;order_uom=EA;contract_uom=CASE;pack=12,84
+EXC-000190,UOM_MISMATCH,purchase_order,PO-2026-008914,UOM-SKU-001782-CASE,D5: order_uom deviates from contract and EA qty not a pack multiple,PLANNER,order_qty=9;order_uom=EA;contract_uom=CASE;pack=24,216
+EXC-000191,UOM_MISMATCH,purchase_order,PO-2026-009008,UOM-SKU-001717-CASE,D5: order_uom deviates from contract and EA qty not a pack multiple,PLANNER,order_qty=50;order_uom=EA;contract_uom=CASE;pack=12,600
+EXC-000192,UOM_MISMATCH,purchase_order,PO-2026-009627,UOM-SKU-002131-CASE,D5: order_uom deviates from contract,PLANNER,order_qty=12;order_uom=EA;contract_uom=CASE;pack=12,144
+EXC-000193,UOM_MISMATCH,purchase_order,PO-2026-009690,UOM-SKU-002971-CASE,D5: order_uom deviates from contract and EA qty not a pack multiple,PLANNER,order_qty=3;order_uom=EA;contract_uom=CASE;pack=48,144
+EXC-000194,UOM_MISMATCH,purchase_order,PO-2026-009825,UOM-SKU-000207-CASE,D5: order_uom deviates from contract and EA qty not a pack multiple,PLANNER,order_qty=2;order_uom=EA;contract_uom=CASE;pack=12,24
+EXC-000195,UOM_MISMATCH,purchase_order,PO-2026-009827,UOM-SKU-000260-CASE,D5: order_uom deviates from contract and EA qty not a pack multiple,PLANNER,order_qty=4;order_uom=EA;contract_uom=CASE;pack=24,96
+EXC-000196,UOM_MISMATCH,purchase_order,PO-2026-009843,UOM-SKU-001682-CASE,D5: order_uom deviates from contract and EA qty not a pack multiple,PLANNER,order_qty=3;order_uom=EA;contract_uom=CASE;pack=48,144
+EXC-000197,UOM_MISMATCH,purchase_order,PO-2026-009944,UOM-SKU-001825-CASE,D5: order_uom deviates from contract and EA qty not a pack multiple,PLANNER,order_qty=10;order_uom=EA;contract_uom=CASE;pack=12,120
+EXC-000198,UOM_MISMATCH,purchase_order,PO-2026-009963,UOM-SKU-002317-CASE,D5: order_uom deviates from contract and EA qty not a pack multiple,PLANNER,order_qty=3;order_uom=EA;contract_uom=CASE;pack=48,144
+EXC-000199,UOM_MISMATCH,purchase_order,PO-2026-009975,UOM-SKU-001717-CASE,D5: order_uom deviates from contract and EA qty not a pack multiple,PLANNER,order_qty=4;order_uom=EA;contract_uom=CASE;pack=12,48
+EXC-000200,UOM_MISMATCH,purchase_order,PO-2026-009999,UOM-SKU-001956-CASE,D5: order_uom deviates from contract and EA qty not a pack multiple,PLANNER,order_qty=3;order_uom=EA;contract_uom=CASE;pack=12,36

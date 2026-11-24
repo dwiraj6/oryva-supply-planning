@@ -1,0 +1,105 @@
+{
+  "files": {
+    "bom.csv": {
+      "bytes": 91805,
+      "rows": 1504,
+      "sha256": "4b20b0da92798e08669ef6fc7ed5e76c7c46a5177398c268bd9bdfd2b251fac1"
+    },
+    "forecast_demand.csv.gz": {
+      "bytes": 4021793,
+      "rows": 501176,
+      "sha256": "8e7e549dc2411869409dc8d00eba84c2ff8898ffd3392ccb429f5a1b0f86f39e"
+    },
+    "inbound_shipment.csv": {
+      "bytes": 239978,
+      "rows": 3197,
+      "sha256": "3330348f868927c9c7136c9f0029185e0cb34af2fd28dee3e0a6302f5705551c"
+    },
+    "inventory.csv": {
+      "bytes": 781476,
+      "rows": 11735,
+      "sha256": "282bff1db3bc7e0cd6bdf7cbddfda1c1769ae368bf4425c449aa80235bb67afc"
+    },
+    "lead_time.csv": {
+      "bytes": 702708,
+      "rows": 13238,
+      "sha256": "f2147ef1f8c25ff2588af1f311cca20bd4f62059487f6f51e13d267cca19de3e"
+    },
+    "location.csv": {
+      "bytes": 2129,
+      "rows": 50,
+      "sha256": "77537334781d053450ca8990963265e45a04a45b24b289ea28bb3c2849a06c68"
+    },
+    "po_event.csv.gz": {
+      "bytes": 182313,
+      "rows": 25424,
+      "sha256": "fed037f880f42eae7c41411a1defc9b2a84d7a82483e02db3543a495181b6b77"
+    },
+    "production_capacity.csv.gz": {
+      "bytes": 2077,
+      "rows": 260,
+      "sha256": "527f1845a909aa8284a6de099279e6fd36e182235f893374583a20d4bdefbb80"
+    },
+    "production_plan.csv.gz": {
+      "bytes": 273477,
+      "rows": 37519,
+      "sha256": "428ee72f95db052adee49c289c282d2f1b4c9c06e68b12c2f3f21ba098446efc"
+    },
+    "purchase_order.csv": {
+      "bytes": 1015272,
+      "rows": 10080,
+      "sha256": "d3c7d573b485cf3f9cf603afa9173c3cc9f69b76cbffdd2414387d0c812ab234"
+    },
+    "sku.csv": {
+      "bytes": 262712,
+      "rows": 3000,
+      "sha256": "bf2e8f84ee50c150030e6299edf8f6b9cf6cdb76ab07a406b59c2f1dfc2bff00"
+    },
+    "sku_location.csv": {
+      "bytes": 679444,
+      "rows": 11735,
+      "sha256": "6979ea203cc817656ee5dec28d8772d3c579f98238fa4640dfa908f458f2bf47"
+    },
+    "sku_substitute.csv": {
+      "bytes": 34976,
+      "rows": 471,
+      "sha256": "0ff894c0363f143beb9592c2bac0f4c3ac0daa1f130522e4cf9ac6e9e165bb9c"
+    },
+    "supplier.csv": {
+      "bytes": 26947,
+      "rows": 500,
+      "sha256": "7038df8faaf8cc60716bbad2f62bce1596a594b15941374ff0a78e3aa39aaae5"
+    },
+    "supplier_capacity.csv.gz": {
+      "bytes": 218073,
+      "rows": 26000,
+      "sha256": "e21a30fe41673e7d228ced579fbd532236cd6351f179c5dc969c97c29bd5738c"
+    },
+    "supplier_sku.csv": {
+      "bytes": 351225,
+      "rows": 4626,
+      "sha256": "e8308e563483cf6f1d122ac1d14aa3c5f57a5db4d3e01f8ccb0c612b75222765"
+    },
+    "uom_conversion.csv": {
+      "bytes": 236281,
+      "rows": 6000,
+      "sha256": "69f9b453247e6994747e133fed7f81126592ef572c9a9383910cc33e7b8c240b"
+    }
+  },
+  "ground_truth": {
+    "rows": 240,
+    "sha256": "40d4df75127727187e5502fc936f96cd6628ffa546e94b0efa9ee459fb75879c"
+  },
+  "scale": {
+    "boundary_per_type": 10,
+    "compress": true,
+    "edge_cases_per_type": 40,
+    "n_locations": 50,
+    "n_pos": 10000,
+    "n_skus": 3000,
+    "n_suppliers": 500,
+    "n_weeks": 52,
+    "name": "full"
+  },
+  "seed": 20261022
+}

@@ -1,0 +1,21 @@
+{
+  "command": "python -m oryva generate --scale full --seed 20261022",
+  "external_data": "none (fully synthetic; see docs/source_manifest.md)",
+  "generator": "python -m oryva generate",
+  "numpy": "2.5.5",
+  "oryva_version": "1.0.0",
+  "pandas": "3.1.1",
+  "python": "3.12.16",
+  "scale": {
+    "boundary_per_type": 10,
+    "compress": true,
+    "edge_cases_per_type": 40,
+    "n_locations": 50,
+    "n_pos": 10000,
+    "n_skus": 3000,
+    "n_suppliers": 500,
+    "n_weeks": 52,
+    "name": "full"
+  },
+  "seed": 20261022
+}

@@ -1,0 +1,162 @@
+[
+ {
+  "supplier_id":"SUP-0001",
+  "supplier_name":"Supplier 0001 South",
+  "region":"SOUTH",
+  "reliability_score":0.934,
+  "status":"ACTIVE",
+  "capacity_constrained":false
+ },
+ {
+  "supplier_id":"SUP-0002",
+  "supplier_name":"Supplier 0002 West",
+  "region":"WEST",
+  "reliability_score":0.815,
+  "status":"ACTIVE",
+  "capacity_constrained":false
+ },
+ {
+  "supplier_id":"SUP-0003",
+  "supplier_name":"Supplier 0003 East",
+  "region":"EAST",
+  "reliability_score":0.829,
+  "status":"ACTIVE",
+  "capacity_constrained":false
+ },
+ {
+  "supplier_id":"SUP-0004",
+  "supplier_name":"Supplier 0004 West",
+  "region":"WEST",
+  "reliability_score":0.705,
+  "status":"ACTIVE",
+  "capacity_constrained":true
+ },
+ {
+  "supplier_id":"SUP-0005",
+  "supplier_name":"Supplier 0005 East",
+  "region":"EAST",
+  "reliability_score":0.752,
+  "status":"ACTIVE",
+  "capacity_constrained":false
+ },
+ {
+  "supplier_id":"SUP-0006",
+  "supplier_name":"Supplier 0006 East",
+  "region":"EAST",
+  "reliability_score":0.881,
+  "status":"ACTIVE",
+  "capacity_constrained":false
+ },
+ {
+  "supplier_id":"SUP-0007",
+  "supplier_name":"Supplier 0007 East",
+  "region":"EAST",
+  "reliability_score":0.893,
+  "status":"ACTIVE",
+  "capacity_constrained":false
+ },
+ {
+  "supplier_id":"SUP-0008",
+  "supplier_name":"Supplier 0008 Central",
+  "region":"CENTRAL",
+  "reliability_score":0.842,
+  "status":"ACTIVE",
+  "capacity_constrained":false
+ },
+ {
+  "supplier_id":"SUP-0009",
+  "supplier_name":"Supplier 0009 North",
+  "region":"NORTH",
+  "reliability_score":0.708,
+  "status":"ACTIVE",
+  "capacity_constrained":false
+ },
+ {
+  "supplier_id":"SUP-0010",
+  "supplier_name":"Supplier 0010 West",
+  "region":"WEST",
+  "reliability_score":0.604,
+  "status":"ACTIVE",
+  "capacity_constrained":false
+ },
+ {
+  "supplier_id":"SUP-0011",
+  "supplier_name":"Supplier 0011 North",
+  "region":"NORTH",
+  "reliability_score":0.918,
+  "status":"ACTIVE",
+  "capacity_constrained":false
+ },
+ {
+  "supplier_id":"SUP-0012",
+  "supplier_name":"Supplier 0012 East",
+  "region":"EAST",
+  "reliability_score":0.758,
+  "status":"ACTIVE",
+  "capacity_constrained":false
+ },
+ {
+  "supplier_id":"SUP-0013",
+  "supplier_name":"Supplier 0013 West",
+  "region":"WEST",
+  "reliability_score":0.888,
+  "status":"ON_HOLD",
+  "capacity_constrained":false
+ },
+ {
+  "supplier_id":"SUP-0014",
+  "supplier_name":"Supplier 0014 Central",
+  "region":"CENTRAL",
+  "reliability_score":0.789,
+  "status":"ACTIVE",
+  "capacity_constrained":false
+ },
+ {
+  "supplier_id":"SUP-0015",
+  "supplier_name":"Supplier 0015 North",
+  "region":"NORTH",
+  "reliability_score":0.815,
+  "status":"ACTIVE",
+  "capacity_constrained":false
+ },
+ {
+  "supplier_id":"SUP-0016",
+  "supplier_name":"Supplier 0016 South",
+  "region":"SOUTH",
+  "reliability_score":0.911,
+  "status":"ACTIVE",
+  "capacity_constrained":false
+ },
+ {
+  "supplier_id":"SUP-0017",
+  "supplier_name":"Supplier 0017 South",
+  "region":"SOUTH",
+  "reliability_score":0.977,
+  "status":"ACTIVE",
+  "capacity_constrained":false
+ },
+ {
+  "supplier_id":"SUP-0018",
+  "supplier_name":"Supplier 0018 Central",
+  "region":"CENTRAL",
+  "reliability_score":0.601,
+  "status":"ACTIVE",
+  "capacity_constrained":false
+ },
+ {
+  "supplier_id":"SUP-0019",
+  "supplier_name":"Supplier 0019 North",
+  "region":"NORTH",
+  "reliability_score":0.606,
+  "status":"ACTIVE",
+  "capacity_constrained":false
+ },
+ {
+  "supplier_id":"SUP-0020",
+  "supplier_name":"Supplier 0020 North",
+  "region":"NORTH",
+  "reliability_score":0.981,
+  "status":"ACTIVE",
+  "capacity_constrained":false
+ }
+]

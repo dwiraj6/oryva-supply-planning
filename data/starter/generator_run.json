@@ -1,0 +1,21 @@
+{
+  "command": "python -m oryva generate --scale starter --seed 20261022",
+  "external_data": "none (fully synthetic; see docs/source_manifest.md)",
+  "generator": "python -m oryva generate",
+  "numpy": "2.5.5",
+  "oryva_version": "1.0.0",
+  "pandas": "3.1.1",
+  "python": "3.12.16",
+  "scale": {
+    "boundary_per_type": 3,
+    "compress": false,
+    "edge_cases_per_type": 5,
+    "n_locations": 5,
+    "n_pos": 300,
+    "n_skus": 100,
+    "n_suppliers": 20,
+    "n_weeks": 52,
+    "name": "starter"
+  },
+  "seed": 20261022
+}

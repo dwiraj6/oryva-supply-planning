@@ -1,0 +1,3583 @@
+{
+  "business_rule_checks": 7,
+  "business_rule_violations_explained_by_ground_truth": 35,
+  "business_rule_violations_unexplained": 0,
+  "checks": [
+    {
+      "category": "integrity",
+      "check": "sku: primary key unique & non-null",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "sku.sku_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "sku.sku_id: pattern SKU-\\d{6}",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "sku.sku_name: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "sku.category: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "sku.category: allowed values",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "sku.abc_class: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "sku.abc_class: allowed values",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "sku.make_or_buy: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "sku.make_or_buy: allowed values",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "sku.base_uom: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "sku.base_uom: allowed values",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "sku.pack_size: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "sku.pack_size: allowed values",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "sku.unit_cost: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "sku.unit_price: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "sku.safety_stock_weeks: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "sku.lifecycle_status: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "sku.lifecycle_status: allowed values",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "sku.effective_from: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "sku.effective_from: valid date",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "sku.effective_to: valid date",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "location: primary key unique & non-null",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "location.location_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "location.location_id: pattern LOC-\\d{3}",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "location.location_name: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "location.location_type: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "location.location_type: allowed values",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "location.region: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "location.region: allowed values",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "location.storage_capacity_units: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "supplier: primary key unique & non-null",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "supplier.supplier_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "supplier.supplier_id: pattern SUP-\\d{4}",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "supplier.supplier_name: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "supplier.region: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "supplier.region: allowed values",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "supplier.reliability_score: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "supplier.status: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "supplier.status: allowed values",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "supplier.capacity_constrained: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "uom_conversion: primary key unique & non-null",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "uom_conversion: natural key ('sku_id', 'from_uom') unique",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "uom_conversion.uom_conversion_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "uom_conversion.sku_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "uom_conversion.from_uom: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "uom_conversion.from_uom: allowed values",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "uom_conversion.to_uom: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "uom_conversion.to_uom: allowed values",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "uom_conversion.factor: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "sku_location: primary key unique & non-null",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "sku_location: natural key ('sku_id', 'location_id') unique",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "sku_location.sku_location_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "sku_location.sku_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "sku_location.location_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "sku_location.stocking_role: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "sku_location.stocking_role: allowed values",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "sku_location.effective_from: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "sku_location.effective_from: valid date",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "supplier_sku: primary key unique & non-null",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "supplier_sku: natural key ('supplier_id', 'sku_id') unique",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "supplier_sku.supplier_sku_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "supplier_sku.supplier_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "supplier_sku.sku_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "supplier_sku.is_primary: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "supplier_sku.unit_cost: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "supplier_sku.moq_base_qty: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "supplier_sku.order_multiple_base_qty: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "supplier_sku.order_uom: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "supplier_sku.order_uom: allowed values",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "supplier_sku.effective_from: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "supplier_sku.effective_from: valid date",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "sku_substitute: primary key unique & non-null",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "sku_substitute: natural key ('sku_id', 'substitute_sku_id') unique",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "sku_substitute.substitute_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "sku_substitute.sku_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "sku_substitute.substitute_sku_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "sku_substitute.conversion_ratio: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "sku_substitute.review_status: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "sku_substitute.review_status: allowed values",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "sku_substitute.approved: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "sku_substitute.approved_on: valid date",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "bom: primary key unique & non-null",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "bom: natural key ('parent_sku_id', 'component_sku_id') unique",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "bom.bom_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "bom.parent_sku_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "bom.component_sku_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "bom.qty_per: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "bom.effective_from: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "bom.effective_from: valid date",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "lead_time: primary key unique & non-null",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "lead_time: natural key ('supplier_id', 'location_id') unique",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "lead_time.lead_time_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "lead_time.supplier_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "lead_time.location_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "lead_time.lead_time_weeks: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "lead_time.transit_weeks: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "lead_time.effective_from: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "lead_time.effective_from: valid date",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "supplier_capacity: primary key unique & non-null",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "supplier_capacity: natural key ('supplier_id', 'week') unique",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "supplier_capacity.supplier_capacity_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "supplier_capacity.supplier_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "supplier_capacity.week: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "supplier_capacity.week: pattern \\d{4}W\\d{2}",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "supplier_capacity.week: valid ISO week",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "supplier_capacity.capacity_base_qty: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "production_capacity: primary key unique & non-null",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "production_capacity: natural key ('location_id', 'week') unique",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "production_capacity.production_capacity_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "production_capacity.location_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "production_capacity.week: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "production_capacity.week: pattern \\d{4}W\\d{2}",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "production_capacity.week: valid ISO week",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "production_capacity.capacity_base_qty: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "forecast_demand: primary key unique & non-null",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "forecast_demand: natural key ('sku_id', 'location_id', 'week') unique",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "forecast_demand.demand_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "forecast_demand.demand_id: pattern DEM-SKU-\\d{6}-LOC-\\d{3}-\\d{4}W\\d{2}",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "forecast_demand.sku_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "forecast_demand.location_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "forecast_demand.week: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "forecast_demand.week: pattern \\d{4}W\\d{2}",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "forecast_demand.week: valid ISO week",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "forecast_demand.baseline_qty: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "forecast_demand.uplift_qty: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "forecast_demand.forecast_qty: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "forecast_demand.uom: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "forecast_demand.uom: allowed values",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "inventory: primary key unique & non-null",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "inventory: natural key ('sku_id', 'location_id') unique",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "inventory.inventory_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "inventory.sku_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "inventory.location_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "inventory.snapshot_week: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "inventory.snapshot_week: pattern \\d{4}W\\d{2}",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "inventory.snapshot_week: valid ISO week",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "inventory.on_hand_qty: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "inventory.allocated_qty: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "inventory.available_qty: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "inventory.in_transit_qty: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "inventory.uom: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "inventory.uom: allowed values",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "purchase_order: primary key unique & non-null",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "purchase_order.po_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "purchase_order.po_id: pattern PO-2026-\\d{6}",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "purchase_order.supplier_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "purchase_order.sku_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "purchase_order.location_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "purchase_order.created_week: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "purchase_order.created_week: pattern \\d{4}W\\d{2}",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "purchase_order.created_week: valid ISO week",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "purchase_order.order_week: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "purchase_order.order_week: pattern \\d{4}W\\d{2}",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "purchase_order.order_week: valid ISO week",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "purchase_order.promised_week: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "purchase_order.promised_week: pattern \\d{4}W\\d{2}",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "purchase_order.promised_week: valid ISO week",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "purchase_order.order_qty: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "purchase_order.order_uom: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "purchase_order.order_uom: allowed values",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "purchase_order.requested_base_qty: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "purchase_order.unit_cost: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "purchase_order.status: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "purchase_order.status: allowed values",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "po_event: primary key unique & non-null",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "po_event: natural key ('po_id', 'event_seq') unique",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "po_event.event_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "po_event.po_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "po_event.event_seq: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "po_event.event_type: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "po_event.event_type: allowed values",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "po_event.event_week: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "po_event.event_week: pattern \\d{4}W\\d{2}",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "po_event.event_week: valid ISO week",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "po_event.actor: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "po_event.actor: allowed values",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "po_event.new_promised_week: pattern \\d{4}W\\d{2}",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "po_event.new_promised_week: valid ISO week",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "inbound_shipment: primary key unique & non-null",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "inbound_shipment.shipment_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "inbound_shipment.po_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "inbound_shipment.carrier: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "inbound_shipment.carrier: allowed values",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "inbound_shipment.ship_week: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "inbound_shipment.ship_week: pattern \\d{4}W\\d{2}",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "inbound_shipment.ship_week: valid ISO week",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "inbound_shipment.eta_week: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "inbound_shipment.eta_week: pattern \\d{4}W\\d{2}",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "inbound_shipment.eta_week: valid ISO week",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "inbound_shipment.delay_weeks: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "inbound_shipment.qty_base: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "inbound_shipment.shipment_status: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "inbound_shipment.shipment_status: allowed values",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "production_plan: primary key unique & non-null",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "production_plan: natural key ('sku_id', 'location_id', 'week') unique",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "production_plan.production_plan_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "production_plan.sku_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "production_plan.location_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "production_plan.week: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "production_plan.week: pattern \\d{4}W\\d{2}",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "production_plan.week: valid ISO week",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "production_plan.planned_qty: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "production_plan.status: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "production_plan.status: allowed values",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "receipt_line: primary key unique & non-null",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "receipt_line.receipt_line_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "receipt_line.po_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "receipt_line.sku_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "receipt_line.location_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "receipt_line.week: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "receipt_line.week: pattern \\d{4}W\\d{2}",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "receipt_line.week: valid ISO week",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "receipt_line.qty_base: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "receipt_line.basis: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "receipt_line.basis: allowed values",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "projected_balance: primary key unique & non-null",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "projected_balance: natural key ('sku_id', 'location_id', 'week') unique",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "projected_balance.balance_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "projected_balance.sku_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "projected_balance.location_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "projected_balance.week: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "projected_balance.week: pattern \\d{4}W\\d{2}",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "projected_balance.week: valid ISO week",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "projected_balance.opening_qty: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "projected_balance.receipt_qty: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "projected_balance.production_qty: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "projected_balance.forecast_qty: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "projected_balance.dependent_demand_qty: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "projected_balance.closing_qty: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "projected_balance.safety_stock_qty: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "projected_balance.below_safety_stock: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "projected_balance.in_shortage: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "shortage: primary key unique & non-null",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "shortage.shortage_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "shortage.shortage_id: pattern SHORT-2026-\\d{6}",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "shortage.sku_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "shortage.location_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "shortage.start_week: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "shortage.start_week: pattern \\d{4}W\\d{2}",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "shortage.start_week: valid ISO week",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "shortage.end_week: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "shortage.end_week: pattern \\d{4}W\\d{2}",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "shortage.end_week: valid ISO week",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "shortage.peak_week: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "shortage.peak_week: pattern \\d{4}W\\d{2}",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "shortage.peak_week: valid ISO week",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "shortage.shortage_qty: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "shortage.recoverable: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "shortage.min_lead_time_weeks: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "shortage.priority_score: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "shortage.priority_rank: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "shortage.visible_in_raw_plan: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "shortage.mitigated_qty: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "shortage.residual_qty: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "shortage.fill_pct: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "shortage.status: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "shortage.status: allowed values",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "shortage_cause: primary key unique & non-null",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "shortage_cause.cause_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "shortage_cause.shortage_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "shortage_cause.cause_type: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "shortage_cause.cause_type: allowed values",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "shortage_cause.contributed_qty: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "shortage_cause.share_pct: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "mitigation_option: primary key unique & non-null",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "mitigation_option.mitigation_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "mitigation_option.mitigation_id: pattern MIT-SHORT-2026-\\d{6}-\\d{2}",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "mitigation_option.shortage_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "mitigation_option.option_type: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "mitigation_option.option_type: allowed values",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "mitigation_option.order_week: pattern \\d{4}W\\d{2}",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "mitigation_option.order_week: valid ISO week",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "mitigation_option.arrival_week: pattern \\d{4}W\\d{2}",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "mitigation_option.arrival_week: valid ISO week",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "mitigation_option.offered_qty: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "mitigation_option.cost: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "mitigation_option.fill_pct: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "mitigation_option.feasible: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "mitigation_option.dominated: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "mitigation_option.selected: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "mitigation_option.selected_qty: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "mitigation_option.selected_cost: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "capacity_ledger: primary key unique & non-null",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "capacity_ledger.ledger_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "capacity_ledger.mitigation_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "capacity_ledger.resource_type: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "capacity_ledger.resource_type: allowed values",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "capacity_ledger.resource_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "capacity_ledger.week: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "capacity_ledger.week: pattern \\d{4}W\\d{2}",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "capacity_ledger.week: valid ISO week",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "capacity_ledger.qty_base: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "shortage_event: primary key unique & non-null",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "shortage_event.event_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "shortage_event.shortage_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "shortage_event.event_seq: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "shortage_event.event_type: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "shortage_event.event_type: allowed values",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "shortage_event.event_week: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "shortage_event.event_week: pattern \\d{4}W\\d{2}",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "shortage_event.event_week: valid ISO week",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "shortage_event.actor: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "shortage_event.actor: allowed values",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "mitigation_event: primary key unique & non-null",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "mitigation_event.event_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "mitigation_event.mitigation_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "mitigation_event.event_seq: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "mitigation_event.event_type: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "mitigation_event.event_type: allowed values",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "mitigation_event.event_week: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "mitigation_event.event_week: pattern \\d{4}W\\d{2}",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "mitigation_event.event_week: valid ISO week",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "mitigation_event.actor: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "mitigation_event.actor: allowed values",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "exception: primary key unique & non-null",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "exception.exception_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "exception.issue_type: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "exception.issue_type: allowed values",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "exception.entity: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "exception.record_id: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "exception.rule: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "exception.owner: required",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "exception.owner: allowed values",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "FK uom_conversion.sku_id -> sku.sku_id",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "FK sku_location.sku_id -> sku.sku_id",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "FK sku_location.location_id -> location.location_id",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "FK supplier_sku.supplier_id -> supplier.supplier_id",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "FK supplier_sku.sku_id -> sku.sku_id",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "FK sku_substitute.sku_id -> sku.sku_id",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "FK sku_substitute.substitute_sku_id -> sku.sku_id",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "FK bom.parent_sku_id -> sku.sku_id",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "FK bom.component_sku_id -> sku.sku_id",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "FK lead_time.supplier_id -> supplier.supplier_id",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "FK lead_time.location_id -> location.location_id",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "FK supplier_capacity.supplier_id -> supplier.supplier_id",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "FK production_capacity.location_id -> location.location_id",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "FK forecast_demand.sku_id -> sku.sku_id",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "FK forecast_demand.location_id -> location.location_id",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "FK inventory.sku_id -> sku.sku_id",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "FK inventory.location_id -> location.location_id",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "FK purchase_order.supplier_id -> supplier.supplier_id",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "FK purchase_order.sku_id -> sku.sku_id",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "FK purchase_order.location_id -> location.location_id",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "FK purchase_order.substitute_for_sku_id -> sku.sku_id",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "FK po_event.po_id -> purchase_order.po_id",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "FK inbound_shipment.po_id -> purchase_order.po_id",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "FK production_plan.sku_id -> sku.sku_id",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "FK production_plan.location_id -> location.location_id",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "FK receipt_line.po_id -> purchase_order.po_id",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "FK receipt_line.shipment_id -> inbound_shipment.shipment_id",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "FK receipt_line.sku_id -> sku.sku_id",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "FK receipt_line.location_id -> location.location_id",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "FK projected_balance.sku_id -> sku.sku_id",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "FK projected_balance.location_id -> location.location_id",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "FK shortage.sku_id -> sku.sku_id",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "FK shortage.location_id -> location.location_id",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "FK shortage_cause.shortage_id -> shortage.shortage_id",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "FK mitigation_option.shortage_id -> shortage.shortage_id",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "FK capacity_ledger.mitigation_id -> mitigation_option.mitigation_id",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "FK shortage_event.shortage_id -> shortage.shortage_id",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "FK mitigation_event.mitigation_id -> mitigation_option.mitigation_id",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "SQLite load with CHECK/UNIQUE constraints",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "SQLite PRAGMA foreign_key_check",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "forecast_qty = baseline_qty + uplift_qty",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "inventory: available = on_hand - allocated; 0 <= allocated <= on_hand",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "inventory: in_transit_qty = sum of inbound shipments to the SKU-location",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "forecast_demand SKU-location is in assortment",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "inventory SKU-location is in assortment",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "sku: unit_price > unit_cost > 0",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "sku: effective_from <= effective_to",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "supplier_sku: effective_from <= effective_to",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "lead_time: effective_from <= effective_to",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "sku_substitute: approved == (review_status == APPROVED); approved_on iff approved",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "supplier_sku: exactly one primary supplier per SKU",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "supplier_sku: MOQ is a multiple of order multiple = pack_size",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "bom: parent is MAKE and component is BUY",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "lead_time: lead_time_weeks > transit_weeks >= 1",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "production_plan: plant load <= production capacity",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "purchase_order: requested_base_qty = order_qty * uom factor",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "purchase_order: confirmed_base_qty <= requested_base_qty",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "purchase_order: confirmed qty null iff CREATED/CANCELLED",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "purchase_order: created_week <= order_week < promised_or_equal; created <= snapshot",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "po_event: event_seq is 1..n per PO",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "po_event: lifecycle transitions are legal",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "po_event: event weeks non-decreasing and <= snapshot",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "purchase_order.status == latest non-DELAYED event",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "every PO has an event history",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "po_event: DELAYED new_promised_week later than promised_week",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "inbound_shipment: eta_week = ship_week + transit_weeks + delay_weeks",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "inbound_shipment: only for SHIPPED POs",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "every SHIPPED PO has a shipment",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "supplier.capacity_constrained derived from capacity cuts",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "boundary_hits": 0,
+      "category": "business_rule",
+      "check": "BR1 at most one ASN per PO (inbound not double counted)",
+      "detail": "POs whose shipped qty > confirmed: 5",
+      "explained_by_ground_truth": 5,
+      "sample": [
+        "SHP-2026-000057",
+        "SHP-2026-000058",
+        "SHP-2026-000059",
+        "SHP-2026-000060",
+        "SHP-2026-000061"
+      ],
+      "status": "PASS",
+      "unexplained": 0,
+      "violations": 5
+    },
+    {
+      "boundary_hits": 0,
+      "category": "business_rule",
+      "check": "BR6 no duplicate shipment records (po, carrier, ship week, qty)",
+      "detail": "",
+      "explained_by_ground_truth": 5,
+      "sample": [
+        "SHP-2026-000057",
+        "SHP-2026-000058",
+        "SHP-2026-000059",
+        "SHP-2026-000060",
+        "SHP-2026-000061"
+      ],
+      "status": "PASS",
+      "unexplained": 0,
+      "violations": 5
+    },
+    {
+      "boundary_hits": 0,
+      "category": "business_rule",
+      "check": "BR2 substitute POs use an APPROVED substitute pair",
+      "detail": "",
+      "explained_by_ground_truth": 5,
+      "sample": [
+        "PO-2026-000301",
+        "PO-2026-000302",
+        "PO-2026-000303",
+        "PO-2026-000304",
+        "PO-2026-000305"
+      ],
+      "status": "PASS",
+      "unexplained": 0,
+      "violations": 5
+    },
+    {
+      "boundary_hits": 0,
+      "category": "business_rule",
+      "check": "BR3 confirmed supplier load <= weekly capacity",
+      "detail": "",
+      "explained_by_ground_truth": 5,
+      "sample": [
+        "PO-2026-000307",
+        "PO-2026-000310",
+        "PO-2026-000308",
+        "PO-2026-000306",
+        "PO-2026-000309"
+      ],
+      "status": "PASS",
+      "unexplained": 0,
+      "violations": 5
+    },
+    {
+      "boundary_hits": 0,
+      "category": "business_rule",
+      "check": "BR4 promised_week >= order_week + lead_time_weeks",
+      "detail": "",
+      "explained_by_ground_truth": 5,
+      "sample": [
+        "PO-2026-000150",
+        "PO-2026-000187",
+        "PO-2026-000192",
+        "PO-2026-000213",
+        "PO-2026-000275"
+      ],
+      "status": "PASS",
+      "unexplained": 0,
+      "violations": 5
+    },
+    {
+      "boundary_hits": 0,
+      "category": "business_rule",
+      "check": "BR5 PO unit of measure matches contract and pack multiple",
+      "detail": "",
+      "explained_by_ground_truth": 5,
+      "sample": [
+        "PO-2026-000099",
+        "PO-2026-000149",
+        "PO-2026-000160",
+        "PO-2026-000237",
+        "PO-2026-000299"
+      ],
+      "status": "PASS",
+      "unexplained": 0,
+      "violations": 5
+    },
+    {
+      "boundary_hits": 0,
+      "category": "business_rule",
+      "check": "BR7 requested qty >= MOQ and multiple of order multiple",
+      "detail": "",
+      "explained_by_ground_truth": 5,
+      "sample": [
+        "PO-2026-000099",
+        "PO-2026-000149",
+        "PO-2026-000160",
+        "PO-2026-000237",
+        "PO-2026-000299"
+      ],
+      "status": "PASS",
+      "unexplained": 0,
+      "violations": 5
+    },
+    {
+      "category": "integrity",
+      "check": "PAB: closing = opening + receipts + production - forecast - dependent",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "PAB: opening[w+1] = closing[w] (week-by-week roll)",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "PAB: opening(W01) = inventory.available_qty",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "PAB: forecast_qty reconciles to forecast_demand",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "PAB: production_qty reconciles to production_plan",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "PAB: receipt_qty reconciles to receipt_line",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "PAB: dependent_demand_qty = sum(parent planned_qty * qty_per)",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "receipt_line: never credits a CANCELLED PO",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "shortage_qty = -min(closing) over the run",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "shortage run boundaries match negative-balance weeks",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "every negative-balance week belongs to a shortage",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "every shortage has explainable causes summing to shortage_qty",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "cause contributions are positive",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "mitigated_qty + residual_qty consistent with selected options",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "residual qty is explicitly accepted (ACCEPT_SHORTFALL selected)",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "only feasible options are selected",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "policy: selected substitutes are APPROVED",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "policy: no PO/expedite placed with an ON_HOLD supplier",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "policy: PO/expedite arrival honours (expedited) lead time",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "policy: mitigation POs respect MOQ and order multiple",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "mitigations never exceed spare supplier capacity",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "mitigations never exceed spare plant capacity",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "donor/substitute/component stock stays >= safety stock after mitigation",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "shortage_event: lifecycle starts with DETECTED",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "mitigation_event: lifecycle starts with PROPOSED",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "shortage.status == final shortage event",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "approval: accepted shortfalls and spend >= threshold approved by OPERATIONS_MANAGER",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "roles: TRANSFER/EXPEDITE proposed by LOGISTICS_ANALYST, others by PLANNER",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "roles: shortage closed by OPERATIONS_MANAGER iff a selected option needed approval",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "all five actors from the brief appear in the event history",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "ground truth: every label traces to an existing source record",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "boundary: zero-balance rows produce no shortage",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "boundary: receipt promised in W52 is counted in W52",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "boundary: MOQ POs requested exactly MOQ",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    },
+    {
+      "category": "integrity",
+      "check": "ground truth covers all 5 required edge-case types",
+      "detail": "",
+      "sample": [],
+      "status": "PASS",
+      "violations": 0
+    }
+  ],
+  "integrity_checks": 428,
+  "integrity_failed": 0,
+  "labelled_anomalies": 25,
+  "labelled_anomalies_caught_by_rules": 25,
+  "overall_status": "PASS",
+  "row_counts": {
+    "bom": 52,
+    "capacity_ledger": 225,
+    "exception": 25,
+    "forecast_demand": 13312,
+    "inbound_shipment": 61,
+    "inventory": 290,
+    "lead_time": 100,
+    "location": 5,
+    "mitigation_event": 2366,
+    "mitigation_option": 1183,
+    "po_event": 737,
+    "production_capacity": 52,
+    "production_plan": 820,
+    "projected_balance": 15080,
+    "purchase_order": 310,
+    "receipt_line": 315,
+    "shortage": 310,
+    "shortage_cause": 377,
+    "shortage_event": 911,
+    "sku": 100,
+    "sku_location": 290,
+    "sku_substitute": 17,
+    "supplier": 20,
+    "supplier_capacity": 1040,
+    "supplier_sku": 157,
+    "uom_conversion": 200
+  }
+}

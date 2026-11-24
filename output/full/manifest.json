@@ -1,0 +1,49 @@
+{
+  "files": {
+    "capacity_ledger.csv.gz": {
+      "bytes": 94675,
+      "rows": 8612,
+      "sha256": "224061820066d66e6f3bc08f7d37f48467f4226e62e423e7a885f28c9c1939c4"
+    },
+    "exception.csv": {
+      "bytes": 39997,
+      "rows": 200,
+      "sha256": "3f518b039ecb72741048b8ba54c60e368c3df5f8ae825caacf9034047e291c0d"
+    },
+    "mitigation_event.csv.gz": {
+      "bytes": 549782,
+      "rows": 80562,
+      "sha256": "a10e154761771e981cccf427557c1ebc551c48dc859d3f39409aefa7bc20e1e1"
+    },
+    "mitigation_option.csv.gz": {
+      "bytes": 599229,
+      "rows": 40281,
+      "sha256": "15afa4ab92e57bf95951ddcec1d2b9e72617bbdf79358b557b040cfd019735f9"
+    },
+    "projected_balance.csv.gz": {
+      "bytes": 7440704,
+      "rows": 610220,
+      "sha256": "b5ba0f887bb43ca3228e7a1dc22669d15dc884461bf4caf7ff92fb63d56e6191"
+    },
+    "receipt_line.csv.gz": {
+      "bytes": 145346,
+      "rows": 10112,
+      "sha256": "cdc49c66aff699aa0f324ce0e360adef15ac410e891f3d37518347b06a05b280"
+    },
+    "shortage.csv": {
+      "bytes": 1112549,
+      "rows": 10155,
+      "sha256": "1aac424294606249387167c0accdb8600185ab9d74baf91948d41e384e655e7f"
+    },
+    "shortage_cause.csv.gz": {
+      "bytes": 225548,
+      "rows": 13116,
+      "sha256": "08d9bd161a6a8c84d0b41a7ffe6516e439687a449d2f16e28a116395828e694e"
+    },
+    "shortage_event.csv.gz": {
+      "bytes": 217908,
+      "rows": 29852,
+      "sha256": "d7705ede2dcbdf560c540037a1ee5ea9e62b2659481f5c09073aba8a6db0a259"
+    }
+  }
+}

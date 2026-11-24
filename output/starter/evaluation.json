@@ -1,0 +1,2642 @@
+{
+  "anomaly_impact": {
+    "by_issue_type": [
+      {
+        "direction": "overstated",
+        "false_shortage_weeks": 0,
+        "hidden_shortage_weeks": 12,
+        "issue_type": "INBOUND_DOUBLE_COUNT",
+        "max_abs_balance_error": 3888,
+        "records": 5
+      },
+      {
+        "direction": "overstated",
+        "false_shortage_weeks": 0,
+        "hidden_shortage_weeks": 1,
+        "issue_type": "SHORTAGE_WITHOUT_LEAD_TIME",
+        "max_abs_balance_error": 2304,
+        "records": 5
+      },
+      {
+        "direction": "overstated/understated",
+        "false_shortage_weeks": 5,
+        "hidden_shortage_weeks": 3,
+        "issue_type": "SUBSTITUTE_NOT_APPROVED",
+        "max_abs_balance_error": 72,
+        "records": 5
+      },
+      {
+        "direction": "overstated",
+        "false_shortage_weeks": 0,
+        "hidden_shortage_weeks": 0,
+        "issue_type": "SUPPLIER_CAPACITY_EXCEEDED",
+        "max_abs_balance_error": 9698,
+        "records": 5
+      },
+      {
+        "direction": "understated",
+        "false_shortage_weeks": 111,
+        "hidden_shortage_weeks": 0,
+        "issue_type": "UOM_MISMATCH",
+        "max_abs_balance_error": 6776,
+        "records": 5
+      }
+    ],
+    "records": [
+      {
+        "clean_shortage_weeks": 0,
+        "direction": "overstated",
+        "false_shortage_weeks": 0,
+        "hidden_shortage_weeks": 0,
+        "issue_type": "INBOUND_DOUBLE_COUNT",
+        "location_id": "LOC-003",
+        "max_abs_balance_error": 3072,
+        "raw_shortage_weeks": 0,
+        "record_id": "SHP-2026-000057",
+        "sku_id": "SKU-000087"
+      },
+      {
+        "clean_shortage_weeks": 0,
+        "direction": "overstated",
+        "false_shortage_weeks": 0,
+        "hidden_shortage_weeks": 0,
+        "issue_type": "INBOUND_DOUBLE_COUNT",
+        "location_id": "LOC-003",
+        "max_abs_balance_error": 3618,
+        "raw_shortage_weeks": 0,
+        "record_id": "SHP-2026-000058",
+        "sku_id": "SKU-000085"
+      },
+      {
+        "clean_shortage_weeks": 2,
+        "direction": "overstated",
+        "false_shortage_weeks": 0,
+        "hidden_shortage_weeks": 0,
+        "issue_type": "INBOUND_DOUBLE_COUNT",
+        "location_id": "LOC-002",
+        "max_abs_balance_error": 1176,
+        "raw_shortage_weeks": 2,
+        "record_id": "SHP-2026-000059",
+        "sku_id": "SKU-000013"
+      },
+      {
+        "clean_shortage_weeks": 9,
+        "direction": "overstated",
+        "false_shortage_weeks": 0,
+        "hidden_shortage_weeks": 9,
+        "issue_type": "INBOUND_DOUBLE_COUNT",
+        "location_id": "LOC-003",
+        "max_abs_balance_error": 1056,
+        "raw_shortage_weeks": 0,
+        "record_id": "SHP-2026-000060",
+        "sku_id": "SKU-000080"
+      },
+      {
+        "clean_shortage_weeks": 3,
+        "direction": "overstated",
+        "false_shortage_weeks": 0,
+        "hidden_shortage_weeks": 3,
+        "issue_type": "INBOUND_DOUBLE_COUNT",
+        "location_id": "LOC-004",
+        "max_abs_balance_error": 3888,
+        "raw_shortage_weeks": 0,
+        "record_id": "SHP-2026-000061",
+        "sku_id": "SKU-000032"
+      },
+      {
+        "clean_shortage_weeks": 2,
+        "direction": "understated",
+        "false_shortage_weeks": 1,
+        "hidden_shortage_weeks": 0,
+        "issue_type": "SUBSTITUTE_NOT_APPROVED",
+        "location_id": "LOC-004",
+        "max_abs_balance_error": 60,
+        "raw_shortage_weeks": 3,
+        "record_id": "PO-2026-000301",
+        "sku_id": "SKU-000035"
+      },
+      {
+        "clean_shortage_weeks": 0,
+        "direction": "overstated",
+        "false_shortage_weeks": 0,
+        "hidden_shortage_weeks": 0,
+        "issue_type": "SUBSTITUTE_NOT_APPROVED",
+        "location_id": "LOC-004",
+        "max_abs_balance_error": 60,
+        "raw_shortage_weeks": 0,
+        "record_id": "PO-2026-000301",
+        "sku_id": "SKU-000092"
+      },
+      {
+        "clean_shortage_weeks": 0,
+        "direction": "understated",
+        "false_shortage_weeks": 0,
+        "hidden_shortage_weeks": 0,
+        "issue_type": "SUBSTITUTE_NOT_APPROVED",
+        "location_id": "LOC-002",
+        "max_abs_balance_error": 24,
+        "raw_shortage_weeks": 0,
+        "record_id": "PO-2026-000302",
+        "sku_id": "SKU-000069"
+      },
+      {
+        "clean_shortage_weeks": 1,
+        "direction": "overstated",
+        "false_shortage_weeks": 0,
+        "hidden_shortage_weeks": 0,
+        "issue_type": "SUBSTITUTE_NOT_APPROVED",
+        "location_id": "LOC-002",
+        "max_abs_balance_error": 24,
+        "raw_shortage_weeks": 1,
+        "record_id": "PO-2026-000302",
+        "sku_id": "SKU-000081"
+      },
+      {
+        "clean_shortage_weeks": 0,
+        "direction": "understated",
+        "false_shortage_weeks": 2,
+        "hidden_shortage_weeks": 0,
+        "issue_type": "SUBSTITUTE_NOT_APPROVED",
+        "location_id": "LOC-003",
+        "max_abs_balance_error": 24,
+        "raw_shortage_weeks": 2,
+        "record_id": "PO-2026-000303",
+        "sku_id": "SKU-000069"
+      },
+      {
+        "clean_shortage_weeks": 5,
+        "direction": "overstated",
+        "false_shortage_weeks": 0,
+        "hidden_shortage_weeks": 0,
+        "issue_type": "SUBSTITUTE_NOT_APPROVED",
+        "location_id": "LOC-003",
+        "max_abs_balance_error": 24,
+        "raw_shortage_weeks": 5,
+        "record_id": "PO-2026-000303",
+        "sku_id": "SKU-000081"
+      },
+      {
+        "clean_shortage_weeks": 5,
+        "direction": "overstated",
+        "false_shortage_weeks": 0,
+        "hidden_shortage_weeks": 3,
+        "issue_type": "SUBSTITUTE_NOT_APPROVED",
+        "location_id": "LOC-002",
+        "max_abs_balance_error": 72,
+        "raw_shortage_weeks": 2,
+        "record_id": "PO-2026-000304",
+        "sku_id": "SKU-000049"
+      },
+      {
+        "clean_shortage_weeks": 7,
+        "direction": "understated",
+        "false_shortage_weeks": 2,
+        "hidden_shortage_weeks": 0,
+        "issue_type": "SUBSTITUTE_NOT_APPROVED",
+        "location_id": "LOC-002",
+        "max_abs_balance_error": 72,
+        "raw_shortage_weeks": 9,
+        "record_id": "PO-2026-000304",
+        "sku_id": "SKU-000053"
+      },
+      {
+        "clean_shortage_weeks": 2,
+        "direction": "understated",
+        "false_shortage_weeks": 0,
+        "hidden_shortage_weeks": 0,
+        "issue_type": "SUBSTITUTE_NOT_APPROVED",
+        "location_id": "LOC-005",
+        "max_abs_balance_error": 30,
+        "raw_shortage_weeks": 2,
+        "record_id": "PO-2026-000305",
+        "sku_id": "SKU-000050"
+      },
+      {
+        "clean_shortage_weeks": 0,
+        "direction": "overstated",
+        "false_shortage_weeks": 0,
+        "hidden_shortage_weeks": 0,
+        "issue_type": "SUBSTITUTE_NOT_APPROVED",
+        "location_id": "LOC-005",
+        "max_abs_balance_error": 30,
+        "raw_shortage_weeks": 0,
+        "record_id": "PO-2026-000305",
+        "sku_id": "SKU-000089"
+      },
+      {
+        "clean_shortage_weeks": 0,
+        "direction": "overstated",
+        "false_shortage_weeks": 0,
+        "hidden_shortage_weeks": 0,
+        "issue_type": "SUPPLIER_CAPACITY_EXCEEDED",
+        "location_id": "LOC-005",
+        "max_abs_balance_error": 3356,
+        "raw_shortage_weeks": 0,
+        "record_id": "PO-2026-000306",
+        "sku_id": "SKU-000055"
+      },
+      {
+        "clean_shortage_weeks": 2,
+        "direction": "overstated",
+        "false_shortage_weeks": 0,
+        "hidden_shortage_weeks": 0,
+        "issue_type": "SUPPLIER_CAPACITY_EXCEEDED",
+        "location_id": "LOC-004",
+        "max_abs_balance_error": 2216,
+        "raw_shortage_weeks": 2,
+        "record_id": "PO-2026-000307",
+        "sku_id": "SKU-000005"
+      },
+      {
+        "clean_shortage_weeks": 1,
+        "direction": "overstated",
+        "false_shortage_weeks": 0,
+        "hidden_shortage_weeks": 0,
+        "issue_type": "SUPPLIER_CAPACITY_EXCEEDED",
+        "location_id": "LOC-004",
+        "max_abs_balance_error": 3925,
+        "raw_shortage_weeks": 1,
+        "record_id": "PO-2026-000308",
+        "sku_id": "SKU-000048"
+      },
+      {
+        "clean_shortage_weeks": 0,
+        "direction": "overstated",
+        "false_shortage_weeks": 0,
+        "hidden_shortage_weeks": 0,
+        "issue_type": "SUPPLIER_CAPACITY_EXCEEDED",
+        "location_id": "LOC-004",
+        "max_abs_balance_error": 9698,
+        "raw_shortage_weeks": 0,
+        "record_id": "PO-2026-000309",
+        "sku_id": "SKU-000092"
+      },
+      {
+        "clean_shortage_weeks": 2,
+        "direction": "overstated",
+        "false_shortage_weeks": 0,
+        "hidden_shortage_weeks": 0,
+        "issue_type": "SUPPLIER_CAPACITY_EXCEEDED",
+        "location_id": "LOC-004",
+        "max_abs_balance_error": 8651,
+        "raw_shortage_weeks": 2,
+        "record_id": "PO-2026-000310",
+        "sku_id": "SKU-000099"
+      },
+      {
+        "clean_shortage_weeks": 0,
+        "direction": "overstated",
+        "false_shortage_weeks": 0,
+        "hidden_shortage_weeks": 0,
+        "issue_type": "SHORTAGE_WITHOUT_LEAD_TIME",
+        "location_id": "LOC-004",
+        "max_abs_balance_error": 2304,
+        "raw_shortage_weeks": 0,
+        "record_id": "PO-2026-000150",
+        "sku_id": "SKU-000049"
+      },
+      {
+        "clean_shortage_weeks": 9,
+        "direction": "overstated",
+        "false_shortage_weeks": 0,
+        "hidden_shortage_weeks": 1,
+        "issue_type": "SHORTAGE_WITHOUT_LEAD_TIME",
+        "location_id": "LOC-005",
+        "max_abs_balance_error": 456,
+        "raw_shortage_weeks": 8,
+        "record_id": "PO-2026-000187",
+        "sku_id": "SKU-000072"
+      },
+      {
+        "clean_shortage_weeks": 3,
+        "direction": "overstated",
+        "false_shortage_weeks": 0,
+        "hidden_shortage_weeks": 0,
+        "issue_type": "SHORTAGE_WITHOUT_LEAD_TIME",
+        "location_id": "LOC-002",
+        "max_abs_balance_error": 1152,
+        "raw_shortage_weeks": 3,
+        "record_id": "PO-2026-000192",
+        "sku_id": "SKU-000027"
+      },
+      {
+        "clean_shortage_weeks": 2,
+        "direction": "overstated",
+        "false_shortage_weeks": 0,
+        "hidden_shortage_weeks": 0,
+        "issue_type": "SHORTAGE_WITHOUT_LEAD_TIME",
+        "location_id": "LOC-003",
+        "max_abs_balance_error": 132,
+        "raw_shortage_weeks": 2,
+        "record_id": "PO-2026-000213",
+        "sku_id": "SKU-000011"
+      },
+      {
+        "clean_shortage_weeks": 0,
+        "direction": "overstated",
+        "false_shortage_weeks": 0,
+        "hidden_shortage_weeks": 0,
+        "issue_type": "SHORTAGE_WITHOUT_LEAD_TIME",
+        "location_id": "LOC-004",
+        "max_abs_balance_error": 288,
+        "raw_shortage_weeks": 0,
+        "record_id": "PO-2026-000275",
+        "sku_id": "SKU-000071"
+      },
+      {
+        "clean_shortage_weeks": 0,
+        "direction": "understated",
+        "false_shortage_weeks": 7,
+        "hidden_shortage_weeks": 0,
+        "issue_type": "UOM_MISMATCH",
+        "location_id": "LOC-005",
+        "max_abs_balance_error": 1055,
+        "raw_shortage_weeks": 7,
+        "record_id": "PO-2026-000099",
+        "sku_id": "SKU-000055"
+      },
+      {
+        "clean_shortage_weeks": 0,
+        "direction": "understated",
+        "false_shortage_weeks": 42,
+        "hidden_shortage_weeks": 0,
+        "issue_type": "UOM_MISMATCH",
+        "location_id": "LOC-005",
+        "max_abs_balance_error": 6776,
+        "raw_shortage_weeks": 42,
+        "record_id": "PO-2026-000149",
+        "sku_id": "SKU-000033"
+      },
+      {
+        "clean_shortage_weeks": 0,
+        "direction": "understated",
+        "false_shortage_weeks": 44,
+        "hidden_shortage_weeks": 0,
+        "issue_type": "UOM_MISMATCH",
+        "location_id": "LOC-002",
+        "max_abs_balance_error": 1495,
+        "raw_shortage_weeks": 44,
+        "record_id": "PO-2026-000160",
+        "sku_id": "SKU-000005"
+      },
+      {
+        "clean_shortage_weeks": 0,
+        "direction": "understated",
+        "false_shortage_weeks": 18,
+        "hidden_shortage_weeks": 0,
+        "issue_type": "UOM_MISMATCH",
+        "location_id": "LOC-001",
+        "max_abs_balance_error": 713,
+        "raw_shortage_weeks": 18,
+        "record_id": "PO-2026-000237",
+        "sku_id": "SKU-000013"
+      },
+      {
+        "clean_shortage_weeks": 0,
+        "direction": "understated",
+        "false_shortage_weeks": 0,
+        "hidden_shortage_weeks": 0,
+        "issue_type": "UOM_MISMATCH",
+        "location_id": "LOC-004",
+        "max_abs_balance_error": 10,
+        "raw_shortage_weeks": 0,
+        "record_id": "PO-2026-000299",
+        "sku_id": "SKU-000012"
+      }
+    ],
+    "shortages_hidden_in_raw_plan": 4
+  },
+  "data_profile": {
+    "assortment_locations_per_sku": 2.9,
+    "capacity_cut_pos": 3,
+    "constrained_suppliers": 1,
+    "demand_by_abc": [
+      {
+        "abc": "A",
+        "mean_weekly": 129.643,
+        "median_cv": 0.651,
+        "sku_locations": 63,
+        "zero_week_share": 0.0
+      },
+      {
+        "abc": "B",
+        "mean_weekly": 47.394,
+        "median_cv": 0.651,
+        "sku_locations": 99,
+        "zero_week_share": 0.0
+      },
+      {
+        "abc": "C",
+        "mean_weekly": 8.882,
+        "median_cv": 1.085,
+        "sku_locations": 94,
+        "zero_week_share": 0.43
+      }
+    ],
+    "lead_time_weeks": {
+      "max": 14,
+      "median": 6.0,
+      "min": 2,
+      "p90": 10.0
+    },
+    "po_status": {
+      "CANCELLED": 4,
+      "CONFIRMED": 244,
+      "CREATED": 6,
+      "SHIPPED": 56
+    },
+    "po_uom": {
+      "CASE": 215,
+      "EA": 95
+    },
+    "sku_mix": [
+      {
+        "abc_class": "A",
+        "make_or_buy": "BUY",
+        "n": 15
+      },
+      {
+        "abc_class": "A",
+        "make_or_buy": "MAKE",
+        "n": 3
+      },
+      {
+        "abc_class": "B",
+        "make_or_buy": "BUY",
+        "n": 26
+      },
+      {
+        "abc_class": "B",
+        "make_or_buy": "MAKE",
+        "n": 4
+      },
+      {
+        "abc_class": "C",
+        "make_or_buy": "BUY",
+        "n": 43
+      },
+      {
+        "abc_class": "C",
+        "make_or_buy": "MAKE",
+        "n": 9
+      }
+    ],
+    "spike_week_share": 0.0337,
+    "substitute_pairs": {
+      "APPROVED": 9,
+      "PENDING": 4,
+      "REJECTED": 4
+    },
+    "substitute_pos": 9,
+    "supplier_delayed_pos": 59,
+    "suppliers_on_hold": 1,
+    "transport_delayed_shipments_pct": 14.75
+  },
+  "detector": {
+    "INBOUND_DOUBLE_COUNT": {
+      "f1": 1.0,
+      "false_positive_ids": [],
+      "flagged": 5,
+      "fn": 0,
+      "fp": 0,
+      "labelled": 5,
+      "missed_ids": [],
+      "precision": 1.0,
+      "recall": 1.0,
+      "tp": 5
+    },
+    "SHORTAGE_WITHOUT_LEAD_TIME": {
+      "f1": 1.0,
+      "false_positive_ids": [],
+      "flagged": 5,
+      "fn": 0,
+      "fp": 0,
+      "labelled": 5,
+      "missed_ids": [],
+      "precision": 1.0,
+      "recall": 1.0,
+      "tp": 5
+    },
+    "SUBSTITUTE_NOT_APPROVED": {
+      "f1": 1.0,
+      "false_positive_ids": [],
+      "flagged": 5,
+      "fn": 0,
+      "fp": 0,
+      "labelled": 5,
+      "missed_ids": [],
+      "precision": 1.0,
+      "recall": 1.0,
+      "tp": 5
+    },
+    "SUPPLIER_CAPACITY_EXCEEDED": {
+      "f1": 1.0,
+      "false_positive_ids": [],
+      "flagged": 5,
+      "fn": 0,
+      "fp": 0,
+      "labelled": 5,
+      "missed_ids": [],
+      "precision": 1.0,
+      "recall": 1.0,
+      "tp": 5
+    },
+    "UOM_MISMATCH": {
+      "f1": 1.0,
+      "false_positive_ids": [],
+      "flagged": 5,
+      "fn": 0,
+      "fp": 0,
+      "labelled": 5,
+      "missed_ids": [],
+      "precision": 1.0,
+      "recall": 1.0,
+      "tp": 5
+    },
+    "_boundary": {
+      "boundary_records": 12,
+      "false_positive_ids": [],
+      "false_positives": 0
+    },
+    "_confusion": {
+      "INBOUND_DOUBLE_COUNT": {
+        "INBOUND_DOUBLE_COUNT": 5
+      },
+      "SHORTAGE_WITHOUT_LEAD_TIME": {
+        "SHORTAGE_WITHOUT_LEAD_TIME": 5
+      },
+      "SUBSTITUTE_NOT_APPROVED": {
+        "SUBSTITUTE_NOT_APPROVED": 5
+      },
+      "SUPPLIER_CAPACITY_EXCEEDED": {
+        "SUPPLIER_CAPACITY_EXCEEDED": 5
+      },
+      "UOM_MISMATCH": {
+        "UOM_MISMATCH": 5
+      }
+    },
+    "_micro": {
+      "f1": 1.0,
+      "fn": 0,
+      "fp": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "tp": 25
+    }
+  },
+  "planning": {
+    "accepted_lost_margin": 50220.07,
+    "below_safety_stock_weeks_pct": 14.75,
+    "cause_units": {
+      "BASE_SUPPLY_GAP": 11977,
+      "CANCELLED_PO": 4458,
+      "DEMAND_SPIKE": 31075,
+      "DEPENDENT_DEMAND": 9817,
+      "SUPPLIER_CAPACITY_CUT": 2967,
+      "SUPPLIER_DELAY": 1061,
+      "TRANSPORT_DELAY": 45
+    },
+    "fill_rate_pct": 90.1,
+    "mitigation_cost": 50286.02,
+    "options_dominated": 391,
+    "options_feasible": 777,
+    "options_generated": 1183,
+    "recoverable_pct": 91.29,
+    "rejection_reasons": {
+      "COMPONENT_SHORTAGE": 68,
+      "INSUFFICIENT_SUPPLIER_CAPACITY": 6,
+      "LEAD_TIME_EXCEEDS_NEED_DATE": 76,
+      "NO_SUBSTITUTE_SURPLUS": 14,
+      "NO_SURPLUS_AT_OTHER_LOCATIONS": 184,
+      "SUBSTITUTE_NOT_APPROVED": 19,
+      "SUPPLIER_ON_HOLD": 38,
+      "TRANSFER_LEAD_TIME_EXCEEDS_NEED_DATE": 1
+    },
+    "selected_by_type": {
+      "EXPEDITE": 12,
+      "PLACE_PO": 191,
+      "PRODUCE": 3,
+      "SUBSTITUTE": 1,
+      "TRANSFER": 12
+    },
+    "selected_units_by_type": {
+      "EXPEDITE": 4142,
+      "PLACE_PO": 46292,
+      "PRODUCE": 45,
+      "SUBSTITUTE": 79,
+      "TRANSFER": 1111
+    },
+    "shortage_units": 61400,
+    "shortage_units_pct_of_demand": 6.37,
+    "shortages": 310,
+    "sku_locations": 290,
+    "sku_locations_with_shortage": 203,
+    "status_counts": {
+      "COVERED_BY_PRIOR_MITIGATION": 19,
+      "MITIGATED": 208,
+      "PARTIALLY_MITIGATED": 6,
+      "UNMITIGATED": 77
+    }
+  },
+  "top_shortages": [
+    {
+      "abc": "C",
+      "causes": [
+        {
+          "evidence": "BOM-SKU-000096-SKU-000099",
+          "pct": 100.0,
+          "qty": 1148,
+          "type": "DEPENDENT_DEMAND"
+        }
+      ],
+      "end_week": "2026W04",
+      "fill_pct": 0.0,
+      "location_id": "LOC-001",
+      "options": [
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000010-01",
+          "offered": 0,
+          "reason": "NO_SURPLUS_AT_OTHER_LOCATIONS",
+          "selected": false,
+          "selected_qty": 0,
+          "source": null,
+          "type": "TRANSFER"
+        },
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000010-02",
+          "offered": 0,
+          "reason": "LEAD_TIME_EXCEEDS_NEED_DATE",
+          "selected": false,
+          "selected_qty": 0,
+          "source": "SUP-0007",
+          "type": "PLACE_PO"
+        },
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000010-03",
+          "offered": 0,
+          "reason": "LEAD_TIME_EXCEEDS_NEED_DATE",
+          "selected": false,
+          "selected_qty": 0,
+          "source": "SUP-0007",
+          "type": "EXPEDITE"
+        },
+        {
+          "cost": 37975.84,
+          "dominated": false,
+          "feasible": true,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000010-04",
+          "offered": 0,
+          "reason": NaN,
+          "selected": true,
+          "selected_qty": 1148,
+          "source": null,
+          "type": "ACCEPT_SHORTFALL"
+        }
+      ],
+      "priority_score": 100.0,
+      "rank": 1,
+      "recoverable": false,
+      "shortage_id": "SHORT-2026-000010",
+      "shortage_qty": 1148,
+      "sku_id": "SKU-000099",
+      "start_week": "2026W03",
+      "status": "UNMITIGATED"
+    },
+    {
+      "abc": "B",
+      "causes": [
+        {
+          "evidence": "PO-2026-000162",
+          "pct": 79.08,
+          "qty": 1032,
+          "type": "CANCELLED_PO"
+        },
+        {
+          "evidence": "DEM-SKU-000023-LOC-005-2026W15|DEM-SKU-000023-LOC-005-2026W18|DEM-SKU-000023-LOC-005-2026W29|DEM-SKU-000023-LOC-005-2026W34",
+          "pct": 19.62,
+          "qty": 256,
+          "type": "DEMAND_SPIKE"
+        },
+        {
+          "evidence": "INV-SKU-000023-LOC-005",
+          "pct": 1.3,
+          "qty": 17,
+          "type": "BASE_SUPPLY_GAP"
+        }
+      ],
+      "end_week": "2026W52",
+      "fill_pct": 100.0,
+      "location_id": "LOC-005",
+      "options": [
+        {
+          "cost": 644.81,
+          "dominated": true,
+          "feasible": true,
+          "fill_pct": 13.33,
+          "id": "MIT-SHORT-2026-000044-01",
+          "offered": 174,
+          "reason": NaN,
+          "selected": false,
+          "selected_qty": 0,
+          "source": "LOC-004",
+          "type": "TRANSFER"
+        },
+        {
+          "cost": 150.0,
+          "dominated": false,
+          "feasible": true,
+          "fill_pct": 100.0,
+          "id": "MIT-SHORT-2026-000044-02",
+          "offered": 1308,
+          "reason": NaN,
+          "selected": true,
+          "selected_qty": 1305,
+          "source": "SUP-0009",
+          "type": "PLACE_PO"
+        },
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000044-03",
+          "offered": 0,
+          "reason": "LEAD_TIME_EXCEEDS_NEED_DATE",
+          "selected": false,
+          "selected_qty": 0,
+          "source": "SUP-0002",
+          "type": "PLACE_PO"
+        },
+        {
+          "cost": 30780.2,
+          "dominated": true,
+          "feasible": true,
+          "fill_pct": 100.0,
+          "id": "MIT-SHORT-2026-000044-04",
+          "offered": 1308,
+          "reason": NaN,
+          "selected": false,
+          "selected_qty": 0,
+          "source": "SUP-0002",
+          "type": "EXPEDITE"
+        },
+        {
+          "cost": 10064.64,
+          "dominated": true,
+          "feasible": true,
+          "fill_pct": 100.0,
+          "id": "MIT-SHORT-2026-000044-05",
+          "offered": 1308,
+          "reason": NaN,
+          "selected": false,
+          "selected_qty": 0,
+          "source": "SUP-0003",
+          "type": "PLACE_PO"
+        },
+        {
+          "cost": 46784.25,
+          "dominated": true,
+          "feasible": true,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000044-06",
+          "offered": 0,
+          "reason": NaN,
+          "selected": false,
+          "selected_qty": 0,
+          "source": null,
+          "type": "ACCEPT_SHORTFALL"
+        }
+      ],
+      "priority_score": 87.1119,
+      "rank": 2,
+      "recoverable": true,
+      "shortage_id": "SHORT-2026-000044",
+      "shortage_qty": 1305,
+      "sku_id": "SKU-000023",
+      "start_week": "2026W09",
+      "status": "MITIGATED"
+    },
+    {
+      "abc": "A",
+      "causes": [
+        {
+          "evidence": "PO-2026-000085",
+          "pct": 86.71,
+          "qty": 2250,
+          "type": "CANCELLED_PO"
+        },
+        {
+          "evidence": "DEM-SKU-000091-LOC-004-2026W17|DEM-SKU-000091-LOC-004-2026W19",
+          "pct": 13.29,
+          "qty": 345,
+          "type": "DEMAND_SPIKE"
+        }
+      ],
+      "end_week": "2026W52",
+      "fill_pct": 63.82,
+      "location_id": "LOC-004",
+      "options": [
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000028-01",
+          "offered": 0,
+          "reason": "NO_SURPLUS_AT_OTHER_LOCATIONS",
+          "selected": false,
+          "selected_qty": 0,
+          "source": null,
+          "type": "TRANSFER"
+        },
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000028-02",
+          "offered": 0,
+          "reason": "LEAD_TIME_EXCEEDS_NEED_DATE",
+          "selected": false,
+          "selected_qty": 0,
+          "source": "SUP-0009",
+          "type": "PLACE_PO"
+        },
+        {
+          "cost": 1178.96,
+          "dominated": false,
+          "feasible": true,
+          "fill_pct": 63.82,
+          "id": "MIT-SHORT-2026-000028-03",
+          "offered": 1656,
+          "reason": NaN,
+          "selected": true,
+          "selected_qty": 1656,
+          "source": "SUP-0009",
+          "type": "EXPEDITE"
+        },
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000028-04",
+          "offered": 0,
+          "reason": "LEAD_TIME_EXCEEDS_NEED_DATE",
+          "selected": false,
+          "selected_qty": 0,
+          "source": "SUP-0020",
+          "type": "PLACE_PO"
+        },
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000028-05",
+          "offered": 0,
+          "reason": "LEAD_TIME_EXCEEDS_NEED_DATE",
+          "selected": false,
+          "selected_qty": 0,
+          "source": "SUP-0020",
+          "type": "EXPEDITE"
+        },
+        {
+          "cost": 3399.45,
+          "dominated": true,
+          "feasible": true,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000028-06",
+          "offered": 0,
+          "reason": NaN,
+          "selected": true,
+          "selected_qty": 939,
+          "source": null,
+          "type": "ACCEPT_SHORTFALL"
+        }
+      ],
+      "priority_score": 15.968,
+      "rank": 3,
+      "recoverable": false,
+      "shortage_id": "SHORT-2026-000028",
+      "shortage_qty": 2595,
+      "sku_id": "SKU-000091",
+      "start_week": "2026W06",
+      "status": "PARTIALLY_MITIGATED"
+    },
+    {
+      "abc": "B",
+      "causes": [
+        {
+          "evidence": "DEM-SKU-000023-LOC-003-2026W01",
+          "pct": 100.0,
+          "qty": 57,
+          "type": "DEMAND_SPIKE"
+        }
+      ],
+      "end_week": "2026W02",
+      "fill_pct": 100.0,
+      "location_id": "LOC-003",
+      "options": [
+        {
+          "cost": 345.71,
+          "dominated": false,
+          "feasible": true,
+          "fill_pct": 100.0,
+          "id": "MIT-SHORT-2026-000002-01",
+          "offered": 57,
+          "reason": NaN,
+          "selected": true,
+          "selected_qty": 57,
+          "source": "LOC-004",
+          "type": "TRANSFER"
+        },
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000002-02",
+          "offered": 0,
+          "reason": "LEAD_TIME_EXCEEDS_NEED_DATE",
+          "selected": false,
+          "selected_qty": 0,
+          "source": "SUP-0009",
+          "type": "PLACE_PO"
+        },
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000002-03",
+          "offered": 0,
+          "reason": "LEAD_TIME_EXCEEDS_NEED_DATE",
+          "selected": false,
+          "selected_qty": 0,
+          "source": "SUP-0009",
+          "type": "EXPEDITE"
+        },
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000002-04",
+          "offered": 0,
+          "reason": "LEAD_TIME_EXCEEDS_NEED_DATE",
+          "selected": false,
+          "selected_qty": 0,
+          "source": "SUP-0002",
+          "type": "PLACE_PO"
+        },
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000002-05",
+          "offered": 0,
+          "reason": "LEAD_TIME_EXCEEDS_NEED_DATE",
+          "selected": false,
+          "selected_qty": 0,
+          "source": "SUP-0002",
+          "type": "EXPEDITE"
+        },
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000002-06",
+          "offered": 0,
+          "reason": "LEAD_TIME_EXCEEDS_NEED_DATE",
+          "selected": false,
+          "selected_qty": 0,
+          "source": "SUP-0003",
+          "type": "PLACE_PO"
+        },
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000002-07",
+          "offered": 0,
+          "reason": "LEAD_TIME_EXCEEDS_NEED_DATE",
+          "selected": false,
+          "selected_qty": 0,
+          "source": "SUP-0003",
+          "type": "EXPEDITE"
+        },
+        {
+          "cost": 2043.45,
+          "dominated": true,
+          "feasible": true,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000002-08",
+          "offered": 0,
+          "reason": NaN,
+          "selected": false,
+          "selected_qty": 0,
+          "source": null,
+          "type": "ACCEPT_SHORTFALL"
+        }
+      ],
+      "priority_score": 12.7981,
+      "rank": 4,
+      "recoverable": false,
+      "shortage_id": "SHORT-2026-000002",
+      "shortage_qty": 57,
+      "sku_id": "SKU-000023",
+      "start_week": "2026W02",
+      "status": "MITIGATED"
+    },
+    {
+      "abc": "B",
+      "causes": [
+        {
+          "evidence": "PO-2026-000128",
+          "pct": 100.0,
+          "qty": 136,
+          "type": "SUPPLIER_DELAY"
+        }
+      ],
+      "end_week": "2026W10",
+      "fill_pct": 100.0,
+      "location_id": "LOC-003",
+      "options": [
+        {
+          "cost": 210.35,
+          "dominated": true,
+          "feasible": true,
+          "fill_pct": 4.41,
+          "id": "MIT-SHORT-2026-000043-01",
+          "offered": 6,
+          "reason": NaN,
+          "selected": false,
+          "selected_qty": 0,
+          "source": "LOC-001",
+          "type": "TRANSFER"
+        },
+        {
+          "cost": 150.0,
+          "dominated": false,
+          "feasible": true,
+          "fill_pct": 100.0,
+          "id": "MIT-SHORT-2026-000043-02",
+          "offered": 144,
+          "reason": NaN,
+          "selected": true,
+          "selected_qty": 136,
+          "source": "SUP-0018",
+          "type": "PLACE_PO"
+        },
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000043-03",
+          "offered": 0,
+          "reason": "LEAD_TIME_EXCEEDS_NEED_DATE",
+          "selected": false,
+          "selected_qty": 0,
+          "source": "SUP-0020",
+          "type": "PLACE_PO"
+        },
+        {
+          "cost": 2437.16,
+          "dominated": true,
+          "feasible": true,
+          "fill_pct": 100.0,
+          "id": "MIT-SHORT-2026-000043-04",
+          "offered": 144,
+          "reason": NaN,
+          "selected": false,
+          "selected_qty": 0,
+          "source": "SUP-0020",
+          "type": "EXPEDITE"
+        },
+        {
+          "cost": 3553.68,
+          "dominated": true,
+          "feasible": true,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000043-05",
+          "offered": 0,
+          "reason": NaN,
+          "selected": false,
+          "selected_qty": 0,
+          "source": null,
+          "type": "ACCEPT_SHORTFALL"
+        }
+      ],
+      "priority_score": 7.8689,
+      "rank": 5,
+      "recoverable": true,
+      "shortage_id": "SHORT-2026-000043",
+      "shortage_qty": 136,
+      "sku_id": "SKU-000082",
+      "start_week": "2026W08",
+      "status": "MITIGATED"
+    },
+    {
+      "abc": "B",
+      "causes": [
+        {
+          "evidence": "PO-2026-000101",
+          "pct": 100.0,
+          "qty": 53,
+          "type": "SUPPLIER_DELAY"
+        }
+      ],
+      "end_week": "2026W06",
+      "fill_pct": 100.0,
+      "location_id": "LOC-005",
+      "options": [
+        {
+          "cost": 260.45,
+          "dominated": false,
+          "feasible": true,
+          "fill_pct": 32.08,
+          "id": "MIT-SHORT-2026-000023-01",
+          "offered": 17,
+          "reason": NaN,
+          "selected": true,
+          "selected_qty": 17,
+          "source": "LOC-003",
+          "type": "TRANSFER"
+        },
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000023-02",
+          "offered": 0,
+          "reason": "NO_SUBSTITUTE_SURPLUS",
+          "selected": false,
+          "selected_qty": 0,
+          "source": "SKU-000082",
+          "type": "SUBSTITUTE"
+        },
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000023-03",
+          "offered": 0,
+          "reason": "LEAD_TIME_EXCEEDS_NEED_DATE",
+          "selected": false,
+          "selected_qty": 0,
+          "source": "SUP-0004",
+          "type": "PLACE_PO"
+        },
+        {
+          "cost": 1832.3,
+          "dominated": true,
+          "feasible": true,
+          "fill_pct": 100.0,
+          "id": "MIT-SHORT-2026-000023-04",
+          "offered": 60,
+          "reason": NaN,
+          "selected": false,
+          "selected_qty": 0,
+          "source": "SUP-0004",
+          "type": "EXPEDITE"
+        },
+        {
+          "cost": 1146.0,
+          "dominated": false,
+          "feasible": true,
+          "fill_pct": 100.0,
+          "id": "MIT-SHORT-2026-000023-05",
+          "offered": 60,
+          "reason": NaN,
+          "selected": true,
+          "selected_qty": 36,
+          "source": "SUP-0001",
+          "type": "PLACE_PO"
+        },
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000023-06",
+          "offered": 0,
+          "reason": "INSUFFICIENT_SUPPLIER_CAPACITY",
+          "selected": false,
+          "selected_qty": 0,
+          "source": "SUP-0009",
+          "type": "PLACE_PO"
+        },
+        {
+          "cost": 2147.03,
+          "dominated": true,
+          "feasible": true,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000023-07",
+          "offered": 0,
+          "reason": NaN,
+          "selected": false,
+          "selected_qty": 0,
+          "source": null,
+          "type": "ACCEPT_SHORTFALL"
+        }
+      ],
+      "priority_score": 6.7234,
+      "rank": 6,
+      "recoverable": true,
+      "shortage_id": "SHORT-2026-000023",
+      "shortage_qty": 53,
+      "sku_id": "SKU-000057",
+      "start_week": "2026W06",
+      "status": "MITIGATED"
+    },
+    {
+      "abc": "B",
+      "causes": [
+        {
+          "evidence": "PO-2026-000086",
+          "pct": 100.0,
+          "qty": 412,
+          "type": "SUPPLIER_DELAY"
+        }
+      ],
+      "end_week": "2026W07",
+      "fill_pct": 100.0,
+      "location_id": "LOC-004",
+      "options": [
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000029-01",
+          "offered": 0,
+          "reason": "NO_SURPLUS_AT_OTHER_LOCATIONS",
+          "selected": false,
+          "selected_qty": 0,
+          "source": null,
+          "type": "TRANSFER"
+        },
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000029-02",
+          "offered": 0,
+          "reason": "LEAD_TIME_EXCEEDS_NEED_DATE",
+          "selected": false,
+          "selected_qty": 0,
+          "source": "SUP-0018",
+          "type": "PLACE_PO"
+        },
+        {
+          "cost": 1798.85,
+          "dominated": false,
+          "feasible": true,
+          "fill_pct": 100.0,
+          "id": "MIT-SHORT-2026-000029-03",
+          "offered": 420,
+          "reason": NaN,
+          "selected": true,
+          "selected_qty": 412,
+          "source": "SUP-0018",
+          "type": "EXPEDITE"
+        },
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000029-04",
+          "offered": 0,
+          "reason": "LEAD_TIME_EXCEEDS_NEED_DATE",
+          "selected": false,
+          "selected_qty": 0,
+          "source": "SUP-0008",
+          "type": "PLACE_PO"
+        },
+        {
+          "cost": 3127.1,
+          "dominated": true,
+          "feasible": true,
+          "fill_pct": 100.0,
+          "id": "MIT-SHORT-2026-000029-05",
+          "offered": 420,
+          "reason": NaN,
+          "selected": false,
+          "selected_qty": 0,
+          "source": "SUP-0008",
+          "type": "EXPEDITE"
+        },
+        {
+          "cost": 2076.48,
+          "dominated": true,
+          "feasible": true,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000029-06",
+          "offered": 0,
+          "reason": NaN,
+          "selected": false,
+          "selected_qty": 0,
+          "source": null,
+          "type": "ACCEPT_SHORTFALL"
+        }
+      ],
+      "priority_score": 6.5025,
+      "rank": 7,
+      "recoverable": false,
+      "shortage_id": "SHORT-2026-000029",
+      "shortage_qty": 412,
+      "sku_id": "SKU-000098",
+      "start_week": "2026W06",
+      "status": "MITIGATED"
+    },
+    {
+      "abc": "B",
+      "causes": [
+        {
+          "evidence": "DEM-SKU-000086-LOC-003-2026W02",
+          "pct": 100.0,
+          "qty": 76,
+          "type": "DEMAND_SPIKE"
+        }
+      ],
+      "end_week": "2026W04",
+      "fill_pct": 0.0,
+      "location_id": "LOC-003",
+      "options": [
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000008-01",
+          "offered": 0,
+          "reason": "NO_SURPLUS_AT_OTHER_LOCATIONS",
+          "selected": false,
+          "selected_qty": 0,
+          "source": null,
+          "type": "TRANSFER"
+        },
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000008-02",
+          "offered": 0,
+          "reason": "LEAD_TIME_EXCEEDS_NEED_DATE",
+          "selected": false,
+          "selected_qty": 0,
+          "source": "SUP-0011",
+          "type": "PLACE_PO"
+        },
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000008-03",
+          "offered": 0,
+          "reason": "LEAD_TIME_EXCEEDS_NEED_DATE",
+          "selected": false,
+          "selected_qty": 0,
+          "source": "SUP-0011",
+          "type": "EXPEDITE"
+        },
+        {
+          "cost": 1155.2,
+          "dominated": false,
+          "feasible": true,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000008-04",
+          "offered": 0,
+          "reason": NaN,
+          "selected": true,
+          "selected_qty": 76,
+          "source": null,
+          "type": "ACCEPT_SHORTFALL"
+        }
+      ],
+      "priority_score": 6.0839,
+      "rank": 8,
+      "recoverable": false,
+      "shortage_id": "SHORT-2026-000008",
+      "shortage_qty": 76,
+      "sku_id": "SKU-000086",
+      "start_week": "2026W03",
+      "status": "UNMITIGATED"
+    },
+    {
+      "abc": "B",
+      "causes": [
+        {
+          "evidence": "INV-SKU-000050-LOC-002",
+          "pct": 100.0,
+          "qty": 1009,
+          "type": "BASE_SUPPLY_GAP"
+        }
+      ],
+      "end_week": "2026W52",
+      "fill_pct": 100.0,
+      "location_id": "LOC-002",
+      "options": [
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000018-01",
+          "offered": 0,
+          "reason": "NO_SURPLUS_AT_OTHER_LOCATIONS",
+          "selected": false,
+          "selected_qty": 0,
+          "source": null,
+          "type": "TRANSFER"
+        },
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000018-02",
+          "offered": 0,
+          "reason": "LEAD_TIME_EXCEEDS_NEED_DATE",
+          "selected": false,
+          "selected_qty": 0,
+          "source": "SUP-0017",
+          "type": "PLACE_PO"
+        },
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000018-03",
+          "offered": 0,
+          "reason": "LEAD_TIME_EXCEEDS_NEED_DATE",
+          "selected": false,
+          "selected_qty": 0,
+          "source": "SUP-0017",
+          "type": "EXPEDITE"
+        },
+        {
+          "cost": 352.8,
+          "dominated": false,
+          "feasible": true,
+          "fill_pct": 100.0,
+          "id": "MIT-SHORT-2026-000018-04",
+          "offered": 1014,
+          "reason": NaN,
+          "selected": true,
+          "selected_qty": 1009,
+          "source": "SUP-0016",
+          "type": "PLACE_PO"
+        },
+        {
+          "cost": 1604.31,
+          "dominated": true,
+          "feasible": true,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000018-05",
+          "offered": 0,
+          "reason": NaN,
+          "selected": false,
+          "selected_qty": 0,
+          "source": null,
+          "type": "ACCEPT_SHORTFALL"
+        }
+      ],
+      "priority_score": 5.9744,
+      "rank": 9,
+      "recoverable": true,
+      "shortage_id": "SHORT-2026-000018",
+      "shortage_qty": 1009,
+      "sku_id": "SKU-000050",
+      "start_week": "2026W05",
+      "status": "MITIGATED"
+    },
+    {
+      "abc": "B",
+      "causes": [
+        {
+          "evidence": "BOM-SKU-000046-SKU-000029|BOM-SKU-000075-SKU-000029",
+          "pct": 100.0,
+          "qty": 210,
+          "type": "DEPENDENT_DEMAND"
+        }
+      ],
+      "end_week": "2026W03",
+      "fill_pct": 0.0,
+      "location_id": "LOC-001",
+      "options": [
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000006-01",
+          "offered": 0,
+          "reason": "NO_SURPLUS_AT_OTHER_LOCATIONS",
+          "selected": false,
+          "selected_qty": 0,
+          "source": null,
+          "type": "TRANSFER"
+        },
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000006-02",
+          "offered": 0,
+          "reason": "LEAD_TIME_EXCEEDS_NEED_DATE",
+          "selected": false,
+          "selected_qty": 0,
+          "source": "SUP-0011",
+          "type": "PLACE_PO"
+        },
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000006-03",
+          "offered": 0,
+          "reason": "LEAD_TIME_EXCEEDS_NEED_DATE",
+          "selected": false,
+          "selected_qty": 0,
+          "source": "SUP-0011",
+          "type": "EXPEDITE"
+        },
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000006-04",
+          "offered": 0,
+          "reason": "LEAD_TIME_EXCEEDS_NEED_DATE",
+          "selected": false,
+          "selected_qty": 0,
+          "source": "SUP-0006",
+          "type": "PLACE_PO"
+        },
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000006-05",
+          "offered": 0,
+          "reason": "LEAD_TIME_EXCEEDS_NEED_DATE",
+          "selected": false,
+          "selected_qty": 0,
+          "source": "SUP-0006",
+          "type": "EXPEDITE"
+        },
+        {
+          "cost": 1104.6,
+          "dominated": false,
+          "feasible": true,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000006-06",
+          "offered": 0,
+          "reason": NaN,
+          "selected": true,
+          "selected_qty": 210,
+          "source": null,
+          "type": "ACCEPT_SHORTFALL"
+        }
+      ],
+      "priority_score": 5.8174,
+      "rank": 10,
+      "recoverable": false,
+      "shortage_id": "SHORT-2026-000006",
+      "shortage_qty": 210,
+      "sku_id": "SKU-000029",
+      "start_week": "2026W03",
+      "status": "UNMITIGATED"
+    },
+    {
+      "abc": "B",
+      "causes": [
+        {
+          "evidence": "INV-SKU-000050-LOC-003",
+          "pct": 94.63,
+          "qty": 1464,
+          "type": "BASE_SUPPLY_GAP"
+        },
+        {
+          "evidence": "DEM-SKU-000050-LOC-003-2026W13",
+          "pct": 5.37,
+          "qty": 83,
+          "type": "DEMAND_SPIKE"
+        }
+      ],
+      "end_week": "2026W52",
+      "fill_pct": 100.0,
+      "location_id": "LOC-003",
+      "options": [
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000040-01",
+          "offered": 0,
+          "reason": "NO_SURPLUS_AT_OTHER_LOCATIONS",
+          "selected": false,
+          "selected_qty": 0,
+          "source": null,
+          "type": "TRANSFER"
+        },
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000040-02",
+          "offered": 0,
+          "reason": "LEAD_TIME_EXCEEDS_NEED_DATE",
+          "selected": false,
+          "selected_qty": 0,
+          "source": "SUP-0017",
+          "type": "PLACE_PO"
+        },
+        {
+          "cost": 2102.18,
+          "dominated": true,
+          "feasible": true,
+          "fill_pct": 100.0,
+          "id": "MIT-SHORT-2026-000040-03",
+          "offered": 1548,
+          "reason": NaN,
+          "selected": false,
+          "selected_qty": 0,
+          "source": "SUP-0017",
+          "type": "EXPEDITE"
+        },
+        {
+          "cost": 459.6,
+          "dominated": false,
+          "feasible": true,
+          "fill_pct": 100.0,
+          "id": "MIT-SHORT-2026-000040-04",
+          "offered": 1548,
+          "reason": NaN,
+          "selected": true,
+          "selected_qty": 1547,
+          "source": "SUP-0016",
+          "type": "PLACE_PO"
+        },
+        {
+          "cost": 2459.73,
+          "dominated": true,
+          "feasible": true,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000040-05",
+          "offered": 0,
+          "reason": NaN,
+          "selected": false,
+          "selected_qty": 0,
+          "source": null,
+          "type": "ACCEPT_SHORTFALL"
+        }
+      ],
+      "priority_score": 5.4466,
+      "rank": 11,
+      "recoverable": true,
+      "shortage_id": "SHORT-2026-000040",
+      "shortage_qty": 1547,
+      "sku_id": "SKU-000050",
+      "start_week": "2026W08",
+      "status": "MITIGATED"
+    },
+    {
+      "abc": "A",
+      "causes": [
+        {
+          "evidence": "DEM-SKU-000027-LOC-003-2026W04",
+          "pct": 100.0,
+          "qty": 174,
+          "type": "DEMAND_SPIKE"
+        }
+      ],
+      "end_week": "2026W05",
+      "fill_pct": 100.0,
+      "location_id": "LOC-003",
+      "options": [
+        {
+          "cost": 233.13,
+          "dominated": false,
+          "feasible": true,
+          "fill_pct": 100.0,
+          "id": "MIT-SHORT-2026-000012-01",
+          "offered": 174,
+          "reason": NaN,
+          "selected": true,
+          "selected_qty": 174,
+          "source": "LOC-004",
+          "type": "TRANSFER"
+        },
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000012-02",
+          "offered": 0,
+          "reason": "LEAD_TIME_EXCEEDS_NEED_DATE",
+          "selected": false,
+          "selected_qty": 0,
+          "source": "SUP-0017",
+          "type": "PLACE_PO"
+        },
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000012-03",
+          "offered": 0,
+          "reason": "LEAD_TIME_EXCEEDS_NEED_DATE",
+          "selected": false,
+          "selected_qty": 0,
+          "source": "SUP-0017",
+          "type": "EXPEDITE"
+        },
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000012-04",
+          "offered": 0,
+          "reason": "LEAD_TIME_EXCEEDS_NEED_DATE",
+          "selected": false,
+          "selected_qty": 0,
+          "source": "SUP-0015",
+          "type": "PLACE_PO"
+        },
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000012-05",
+          "offered": 0,
+          "reason": "LEAD_TIME_EXCEEDS_NEED_DATE",
+          "selected": false,
+          "selected_qty": 0,
+          "source": "SUP-0015",
+          "type": "EXPEDITE"
+        },
+        {
+          "cost": 729.06,
+          "dominated": true,
+          "feasible": true,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000012-06",
+          "offered": 0,
+          "reason": NaN,
+          "selected": false,
+          "selected_qty": 0,
+          "source": null,
+          "type": "ACCEPT_SHORTFALL"
+        }
+      ],
+      "priority_score": 4.8431,
+      "rank": 12,
+      "recoverable": false,
+      "shortage_id": "SHORT-2026-000012",
+      "shortage_qty": 174,
+      "sku_id": "SKU-000027",
+      "start_week": "2026W04",
+      "status": "MITIGATED"
+    },
+    {
+      "abc": "C",
+      "causes": [
+        {
+          "evidence": "BOM-SKU-000002-SKU-000084|BOM-SKU-000026-SKU-000084|BOM-SKU-000031-SKU-000084|BOM-SKU-000038-SKU-000084",
+          "pct": 100.0,
+          "qty": 1636,
+          "type": "DEPENDENT_DEMAND"
+        }
+      ],
+      "end_week": "2026W07",
+      "fill_pct": 100.0,
+      "location_id": "LOC-001",
+      "options": [
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000016-01",
+          "offered": 0,
+          "reason": "NO_SURPLUS_AT_OTHER_LOCATIONS",
+          "selected": false,
+          "selected_qty": 0,
+          "source": null,
+          "type": "TRANSFER"
+        },
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000016-02",
+          "offered": 0,
+          "reason": "LEAD_TIME_EXCEEDS_NEED_DATE",
+          "selected": false,
+          "selected_qty": 0,
+          "source": "SUP-0010",
+          "type": "PLACE_PO"
+        },
+        {
+          "cost": 1085.59,
+          "dominated": false,
+          "feasible": true,
+          "fill_pct": 100.0,
+          "id": "MIT-SHORT-2026-000016-03",
+          "offered": 1638,
+          "reason": NaN,
+          "selected": true,
+          "selected_qty": 1636,
+          "source": "SUP-0010",
+          "type": "EXPEDITE"
+        },
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000016-04",
+          "offered": 0,
+          "reason": "LEAD_TIME_EXCEEDS_NEED_DATE",
+          "selected": false,
+          "selected_qty": 0,
+          "source": "SUP-0004",
+          "type": "PLACE_PO"
+        },
+        {
+          "cost": 1372.24,
+          "dominated": true,
+          "feasible": true,
+          "fill_pct": 100.0,
+          "id": "MIT-SHORT-2026-000016-05",
+          "offered": 1638,
+          "reason": NaN,
+          "selected": false,
+          "selected_qty": 0,
+          "source": "SUP-0004",
+          "type": "EXPEDITE"
+        },
+        {
+          "cost": 1914.12,
+          "dominated": true,
+          "feasible": true,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000016-06",
+          "offered": 0,
+          "reason": NaN,
+          "selected": false,
+          "selected_qty": 0,
+          "source": null,
+          "type": "ACCEPT_SHORTFALL"
+        }
+      ],
+      "priority_score": 4.2384,
+      "rank": 13,
+      "recoverable": false,
+      "shortage_id": "SHORT-2026-000016",
+      "shortage_qty": 1636,
+      "sku_id": "SKU-000084",
+      "start_week": "2026W04",
+      "status": "MITIGATED"
+    },
+    {
+      "abc": "A",
+      "causes": [
+        {
+          "evidence": "INV-SKU-000091-LOC-002",
+          "pct": 100.0,
+          "qty": 607,
+          "type": "BASE_SUPPLY_GAP"
+        }
+      ],
+      "end_week": "2026W28",
+      "fill_pct": 0.0,
+      "location_id": "LOC-002",
+      "options": [
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000027-01",
+          "offered": 0,
+          "reason": "NO_SURPLUS_AT_OTHER_LOCATIONS",
+          "selected": false,
+          "selected_qty": 0,
+          "source": null,
+          "type": "TRANSFER"
+        },
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000027-02",
+          "offered": 0,
+          "reason": "LEAD_TIME_EXCEEDS_NEED_DATE",
+          "selected": false,
+          "selected_qty": 0,
+          "source": "SUP-0009",
+          "type": "PLACE_PO"
+        },
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000027-03",
+          "offered": 0,
+          "reason": "INSUFFICIENT_SUPPLIER_CAPACITY",
+          "selected": false,
+          "selected_qty": 0,
+          "source": "SUP-0009",
+          "type": "EXPEDITE"
+        },
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000027-04",
+          "offered": 0,
+          "reason": "LEAD_TIME_EXCEEDS_NEED_DATE",
+          "selected": false,
+          "selected_qty": 0,
+          "source": "SUP-0020",
+          "type": "PLACE_PO"
+        },
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000027-05",
+          "offered": 0,
+          "reason": "LEAD_TIME_EXCEEDS_NEED_DATE",
+          "selected": false,
+          "selected_qty": 0,
+          "source": "SUP-0020",
+          "type": "EXPEDITE"
+        },
+        {
+          "cost": 795.17,
+          "dominated": false,
+          "feasible": true,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000027-06",
+          "offered": 0,
+          "reason": NaN,
+          "selected": true,
+          "selected_qty": 607,
+          "source": null,
+          "type": "ACCEPT_SHORTFALL"
+        }
+      ],
+      "priority_score": 3.7351,
+      "rank": 14,
+      "recoverable": false,
+      "shortage_id": "SHORT-2026-000027",
+      "shortage_qty": 607,
+      "sku_id": "SKU-000091",
+      "start_week": "2026W06",
+      "status": "UNMITIGATED"
+    },
+    {
+      "abc": "A",
+      "causes": [
+        {
+          "evidence": "DEM-SKU-000032-LOC-003-2026W03",
+          "pct": 100.0,
+          "qty": 278,
+          "type": "DEMAND_SPIKE"
+        }
+      ],
+      "end_week": "2026W07",
+      "fill_pct": 100.0,
+      "location_id": "LOC-003",
+      "options": [
+        {
+          "cost": 230.8,
+          "dominated": false,
+          "feasible": true,
+          "fill_pct": 100.0,
+          "id": "MIT-SHORT-2026-000017-01",
+          "offered": 278,
+          "reason": NaN,
+          "selected": true,
+          "selected_qty": 278,
+          "source": "LOC-005",
+          "type": "TRANSFER"
+        },
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000017-02",
+          "offered": 0,
+          "reason": "LEAD_TIME_EXCEEDS_NEED_DATE",
+          "selected": false,
+          "selected_qty": 0,
+          "source": "SUP-0011",
+          "type": "PLACE_PO"
+        },
+        {
+          "cost": 703.04,
+          "dominated": true,
+          "feasible": true,
+          "fill_pct": 100.0,
+          "id": "MIT-SHORT-2026-000017-03",
+          "offered": 288,
+          "reason": NaN,
+          "selected": false,
+          "selected_qty": 0,
+          "source": "SUP-0011",
+          "type": "EXPEDITE"
+        },
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000017-04",
+          "offered": 0,
+          "reason": "LEAD_TIME_EXCEEDS_NEED_DATE",
+          "selected": false,
+          "selected_qty": 0,
+          "source": "SUP-0009",
+          "type": "PLACE_PO"
+        },
+        {
+          "cost": 724.64,
+          "dominated": true,
+          "feasible": true,
+          "fill_pct": 100.0,
+          "id": "MIT-SHORT-2026-000017-05",
+          "offered": 288,
+          "reason": NaN,
+          "selected": false,
+          "selected_qty": 0,
+          "source": "SUP-0009",
+          "type": "EXPEDITE"
+        },
+        {
+          "cost": 581.02,
+          "dominated": true,
+          "feasible": true,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000017-06",
+          "offered": 0,
+          "reason": NaN,
+          "selected": false,
+          "selected_qty": 0,
+          "source": null,
+          "type": "ACCEPT_SHORTFALL"
+        }
+      ],
+      "priority_score": 3.2456,
+      "rank": 15,
+      "recoverable": false,
+      "shortage_id": "SHORT-2026-000017",
+      "shortage_qty": 278,
+      "sku_id": "SKU-000032",
+      "start_week": "2026W05",
+      "status": "MITIGATED"
+    },
+    {
+      "abc": "B",
+      "causes": [
+        {
+          "evidence": "DEM-SKU-000005-LOC-004-2026W02",
+          "pct": 100.0,
+          "qty": 132,
+          "type": "DEMAND_SPIKE"
+        }
+      ],
+      "end_week": "2026W08",
+      "fill_pct": 100.0,
+      "location_id": "LOC-004",
+      "options": [
+        {
+          "cost": 228.17,
+          "dominated": true,
+          "feasible": true,
+          "fill_pct": 37.12,
+          "id": "MIT-SHORT-2026-000030-01",
+          "offered": 49,
+          "reason": NaN,
+          "selected": false,
+          "selected_qty": 0,
+          "source": "LOC-005",
+          "type": "TRANSFER"
+        },
+        {
+          "cost": 208.62,
+          "dominated": true,
+          "feasible": true,
+          "fill_pct": 11.36,
+          "id": "MIT-SHORT-2026-000030-02",
+          "offered": 15,
+          "reason": NaN,
+          "selected": false,
+          "selected_qty": 0,
+          "source": "LOC-003",
+          "type": "TRANSFER"
+        },
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000030-03",
+          "offered": 0,
+          "reason": "NO_SUBSTITUTE_SURPLUS",
+          "selected": false,
+          "selected_qty": 0,
+          "source": "SKU-000086",
+          "type": "SUBSTITUTE"
+        },
+        {
+          "cost": 150.0,
+          "dominated": false,
+          "feasible": true,
+          "fill_pct": 100.0,
+          "id": "MIT-SHORT-2026-000030-04",
+          "offered": 144,
+          "reason": NaN,
+          "selected": true,
+          "selected_qty": 132,
+          "source": "SUP-0001",
+          "type": "PLACE_PO"
+        },
+        {
+          "cost": 1054.68,
+          "dominated": true,
+          "feasible": true,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000030-05",
+          "offered": 0,
+          "reason": NaN,
+          "selected": false,
+          "selected_qty": 0,
+          "source": null,
+          "type": "ACCEPT_SHORTFALL"
+        }
+      ],
+      "priority_score": 2.7772,
+      "rank": 16,
+      "recoverable": true,
+      "shortage_id": "SHORT-2026-000030",
+      "shortage_qty": 132,
+      "sku_id": "SKU-000005",
+      "start_week": "2026W07",
+      "status": "MITIGATED"
+    },
+    {
+      "abc": "B",
+      "causes": [
+        {
+          "evidence": "DEM-SKU-000080-LOC-004-2026W02",
+          "pct": 100.0,
+          "qty": 95,
+          "type": "DEMAND_SPIKE"
+        }
+      ],
+      "end_week": "2026W07",
+      "fill_pct": 100.0,
+      "location_id": "LOC-004",
+      "options": [
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000015-01",
+          "offered": 0,
+          "reason": "NO_SURPLUS_AT_OTHER_LOCATIONS",
+          "selected": false,
+          "selected_qty": 0,
+          "source": null,
+          "type": "TRANSFER"
+        },
+        {
+          "cost": 100.0,
+          "dominated": false,
+          "feasible": true,
+          "fill_pct": 83.16,
+          "id": "MIT-SHORT-2026-000015-02",
+          "offered": 79,
+          "reason": NaN,
+          "selected": true,
+          "selected_qty": 79,
+          "source": "SKU-000060",
+          "type": "SUBSTITUTE"
+        },
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000015-03",
+          "offered": 0,
+          "reason": "LEAD_TIME_EXCEEDS_NEED_DATE",
+          "selected": false,
+          "selected_qty": 0,
+          "source": "SUP-0007",
+          "type": "PLACE_PO"
+        },
+        {
+          "cost": 629.36,
+          "dominated": false,
+          "feasible": true,
+          "fill_pct": 100.0,
+          "id": "MIT-SHORT-2026-000015-04",
+          "offered": 96,
+          "reason": NaN,
+          "selected": true,
+          "selected_qty": 16,
+          "source": "SUP-0007",
+          "type": "EXPEDITE"
+        },
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000015-05",
+          "offered": 0,
+          "reason": "LEAD_TIME_EXCEEDS_NEED_DATE",
+          "selected": false,
+          "selected_qty": 0,
+          "source": "SUP-0002",
+          "type": "PLACE_PO"
+        },
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000015-06",
+          "offered": 0,
+          "reason": "LEAD_TIME_EXCEEDS_NEED_DATE",
+          "selected": false,
+          "selected_qty": 0,
+          "source": "SUP-0002",
+          "type": "EXPEDITE"
+        },
+        {
+          "cost": 418.95,
+          "dominated": true,
+          "feasible": true,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000015-07",
+          "offered": 0,
+          "reason": NaN,
+          "selected": false,
+          "selected_qty": 0,
+          "source": null,
+          "type": "ACCEPT_SHORTFALL"
+        }
+      ],
+      "priority_score": 1.8554,
+      "rank": 17,
+      "recoverable": false,
+      "shortage_id": "SHORT-2026-000015",
+      "shortage_qty": 95,
+      "sku_id": "SKU-000080",
+      "start_week": "2026W04",
+      "status": "MITIGATED"
+    },
+    {
+      "abc": "B",
+      "causes": [
+        {
+          "evidence": "PO-2026-000100",
+          "pct": 100.0,
+          "qty": 12,
+          "type": "SUPPLIER_DELAY"
+        }
+      ],
+      "end_week": "2026W05",
+      "fill_pct": 100.0,
+      "location_id": "LOC-004",
+      "options": [
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000019-01",
+          "offered": 0,
+          "reason": "NO_SURPLUS_AT_OTHER_LOCATIONS",
+          "selected": false,
+          "selected_qty": 0,
+          "source": null,
+          "type": "TRANSFER"
+        },
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000019-02",
+          "offered": 0,
+          "reason": "LEAD_TIME_EXCEEDS_NEED_DATE",
+          "selected": false,
+          "selected_qty": 0,
+          "source": "SUP-0004",
+          "type": "PLACE_PO"
+        },
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000019-03",
+          "offered": 0,
+          "reason": "INSUFFICIENT_SUPPLIER_CAPACITY",
+          "selected": false,
+          "selected_qty": 0,
+          "source": "SUP-0004",
+          "type": "EXPEDITE"
+        },
+        {
+          "cost": 548.4,
+          "dominated": false,
+          "feasible": true,
+          "fill_pct": 100.0,
+          "id": "MIT-SHORT-2026-000019-04",
+          "offered": 24,
+          "reason": NaN,
+          "selected": true,
+          "selected_qty": 12,
+          "source": "SUP-0001",
+          "type": "PLACE_PO"
+        },
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000019-05",
+          "offered": 0,
+          "reason": "LEAD_TIME_EXCEEDS_NEED_DATE",
+          "selected": false,
+          "selected_qty": 0,
+          "source": "SUP-0009",
+          "type": "PLACE_PO"
+        },
+        {
+          "cost": 2356.16,
+          "dominated": true,
+          "feasible": true,
+          "fill_pct": 100.0,
+          "id": "MIT-SHORT-2026-000019-06",
+          "offered": 72,
+          "reason": NaN,
+          "selected": false,
+          "selected_qty": 0,
+          "source": "SUP-0009",
+          "type": "EXPEDITE"
+        },
+        {
+          "cost": 486.12,
+          "dominated": false,
+          "feasible": true,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000019-07",
+          "offered": 0,
+          "reason": NaN,
+          "selected": false,
+          "selected_qty": 0,
+          "source": null,
+          "type": "ACCEPT_SHORTFALL"
+        }
+      ],
+      "priority_score": 1.8103,
+      "rank": 18,
+      "recoverable": true,
+      "shortage_id": "SHORT-2026-000019",
+      "shortage_qty": 12,
+      "sku_id": "SKU-000057",
+      "start_week": "2026W05",
+      "status": "MITIGATED"
+    },
+    {
+      "abc": "B",
+      "causes": [
+        {
+          "evidence": "PO-2026-000125",
+          "pct": 100.0,
+          "qty": 31,
+          "type": "SUPPLIER_DELAY"
+        }
+      ],
+      "end_week": "2026W08",
+      "fill_pct": 100.0,
+      "location_id": "LOC-002",
+      "options": [
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000034-01",
+          "offered": 0,
+          "reason": "NO_SURPLUS_AT_OTHER_LOCATIONS",
+          "selected": false,
+          "selected_qty": 0,
+          "source": null,
+          "type": "TRANSFER"
+        },
+        {
+          "cost": 150.0,
+          "dominated": false,
+          "feasible": true,
+          "fill_pct": 100.0,
+          "id": "MIT-SHORT-2026-000034-02",
+          "offered": 48,
+          "reason": NaN,
+          "selected": true,
+          "selected_qty": 31,
+          "source": "SUP-0009",
+          "type": "PLACE_PO"
+        },
+        {
+          "cost": 199.92,
+          "dominated": true,
+          "feasible": true,
+          "fill_pct": 100.0,
+          "id": "MIT-SHORT-2026-000034-03",
+          "offered": 48,
+          "reason": NaN,
+          "selected": false,
+          "selected_qty": 0,
+          "source": "SUP-0003",
+          "type": "PLACE_PO"
+        },
+        {
+          "cost": 628.06,
+          "dominated": true,
+          "feasible": true,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000034-04",
+          "offered": 0,
+          "reason": NaN,
+          "selected": false,
+          "selected_qty": 0,
+          "source": null,
+          "type": "ACCEPT_SHORTFALL"
+        }
+      ],
+      "priority_score": 1.6538,
+      "rank": 19,
+      "recoverable": true,
+      "shortage_id": "SHORT-2026-000034",
+      "shortage_qty": 31,
+      "sku_id": "SKU-000067",
+      "start_week": "2026W07",
+      "status": "MITIGATED"
+    },
+    {
+      "abc": "B",
+      "causes": [
+        {
+          "evidence": "DEM-SKU-000092-LOC-002-2026W01",
+          "pct": 100.0,
+          "qty": 41,
+          "type": "DEMAND_SPIKE"
+        }
+      ],
+      "end_week": "2026W05",
+      "fill_pct": 82.93,
+      "location_id": "LOC-002",
+      "options": [
+        {
+          "cost": 221.66,
+          "dominated": false,
+          "feasible": true,
+          "fill_pct": 82.93,
+          "id": "MIT-SHORT-2026-000009-01",
+          "offered": 34,
+          "reason": NaN,
+          "selected": true,
+          "selected_qty": 34,
+          "source": "LOC-004",
+          "type": "TRANSFER"
+        },
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000009-02",
+          "offered": 0,
+          "reason": "SUBSTITUTE_NOT_APPROVED(REJECTED)",
+          "selected": false,
+          "selected_qty": 0,
+          "source": "SKU-000035",
+          "type": "SUBSTITUTE"
+        },
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000009-03",
+          "offered": 0,
+          "reason": "LEAD_TIME_EXCEEDS_NEED_DATE",
+          "selected": false,
+          "selected_qty": 0,
+          "source": "SUP-0004",
+          "type": "PLACE_PO"
+        },
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000009-04",
+          "offered": 0,
+          "reason": "LEAD_TIME_EXCEEDS_NEED_DATE",
+          "selected": false,
+          "selected_qty": 0,
+          "source": "SUP-0004",
+          "type": "EXPEDITE"
+        },
+        {
+          "cost": 0.0,
+          "dominated": false,
+          "feasible": false,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000009-05",
+          "offered": 0,
+          "reason": "SUPPLIER_ON_HOLD",
+          "selected": false,
+          "selected_qty": 0,
+          "source": "SUP-0013",
+          "type": "PLACE_PO"
+        },
+        {
+          "cost": 295.61,
+          "dominated": true,
+          "feasible": true,
+          "fill_pct": 0.0,
+          "id": "MIT-SHORT-2026-000009-06",
+          "offered": 0,
+          "reason": NaN,
+          "selected": true,
+          "selected_qty": 7,
+          "source": null,
+          "type": "ACCEPT_SHORTFALL"
+        }
+      ],
+      "priority_score": 1.5568,
+      "rank": 20,
+      "recoverable": false,
+      "shortage_id": "SHORT-2026-000009",
+      "shortage_qty": 41,
+      "sku_id": "SKU-000092",
+      "start_week": "2026W03",
+      "status": "PARTIALLY_MITIGATED"
+    }
+  ]
+}

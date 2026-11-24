@@ -1,0 +1,6 @@
+location_id,location_name,location_type,region,storage_capacity_units
+LOC-001,East Plant 001,PLANT,EAST,104000
+LOC-002,South Dc 002,DC,SOUTH,238000
+LOC-003,South Warehouse 003,WAREHOUSE,SOUTH,238000
+LOC-004,South Dc 004,DC,SOUTH,55000
+LOC-005,North Warehouse 005,WAREHOUSE,NORTH,160000

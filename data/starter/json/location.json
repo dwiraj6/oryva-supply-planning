@@ -1,0 +1,37 @@
+[
+ {
+  "location_id":"LOC-001",
+  "location_name":"East Plant 001",
+  "location_type":"PLANT",
+  "region":"EAST",
+  "storage_capacity_units":104000
+ },
+ {
+  "location_id":"LOC-002",
+  "location_name":"South Dc 002",
+  "location_type":"DC",
+  "region":"SOUTH",
+  "storage_capacity_units":238000
+ },
+ {
+  "location_id":"LOC-003",
+  "location_name":"South Warehouse 003",
+  "location_type":"WAREHOUSE",
+  "region":"SOUTH",
+  "storage_capacity_units":238000
+ },
+ {
+  "location_id":"LOC-004",
+  "location_name":"South Dc 004",
+  "location_type":"DC",
+  "region":"SOUTH",
+  "storage_capacity_units":55000
+ },
+ {
+  "location_id":"LOC-005",
+  "location_name":"North Warehouse 005",
+  "location_type":"WAREHOUSE",
+  "region":"NORTH",
+  "storage_capacity_units":160000
+ }
+]

@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+# rebuilt by `validate` (≈220 MB at full scale); every table is in the committed CSVs
+output/*/oryva.sqlite
